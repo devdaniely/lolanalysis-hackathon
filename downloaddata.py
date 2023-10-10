@@ -7,17 +7,17 @@ import os
 from io import BytesIO
 
 t_list = [
- #"lpl_regional_finals_2023",
- #"lpl_summer_2023",
- #"lec_spring_2023",
- #"lcs_summer_2023",
- #"lec_summer_2023",
- #"msi_2023",
- "lck_spring_2023",
- "lck_summer_2023"
- #"lec_season_finals_2023",
- #"lec_winter_2023",
- #"lcs_spring_2023"
+ "lpl_regional_finals_2023",
+ "lpl_summer_2023",
+ "lec_spring_2023",
+ "lcs_summer_2023",
+ "lec_summer_2023",
+ "msi_2023",
+ #"lck_spring_2023"
+ #"lck_summer_2023"
+ "lec_season_finals_2023",
+ "lec_winter_2023",
+ "lcs_spring_2023"
 ]
 
 
@@ -36,7 +36,7 @@ def download_gzip_and_write_to_json(directory, platform_game_id, tournament):
         os.makedirs(f"{directory}/{tournament}")
 
     response = requests.get(f"{S3_BUCKET_URL}/{file_name}.json.gz", stream=True)
-    print(f"{S3_BUCKET_URL}/{file_name}.json.gz")
+    #print(f"{S3_BUCKET_URL}/{file_name}.json.gz")
     if response.status_code == 200:
         try:
 
@@ -95,7 +95,8 @@ def download_games(year):
             print(f"Processing {tournament['slug']}")
             for stage in tournament["stages"]:
                 for section in stage["sections"]:
-                    for match in section["matches"]:
+                    for idx, match in enumerate(section["matches"]):
+                        print("Downloading file: " + str(idx) + "/" + str(len(section["matches"])))
                         for game in match["games"]:
                             if game["state"] == "completed":
 

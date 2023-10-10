@@ -32,5 +32,6 @@ def analyze():
 
 
 if __name__ == "__main__":
-   analyze()
-
+   #analyze()
+   df = pd.read_json("./esports-data/tournaments.json")
+   df.to_excel("test_tournament_output.xlsx")
