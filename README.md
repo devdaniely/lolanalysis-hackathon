@@ -28,3 +28,24 @@
 
 - `analyze.py` is current playground file
 
+--------------
+# Formula
+- TODO: Modify ELO rating with new variables from ML
+- Factor in sequencing/proximity coefficients
+
+
+#### Sequencing
+1. Split game df into 5min intervals
+2. Map eventType into sequences at the team level
+  - Ex: ward_placed = "A", ocean_drag = "B", etc.
+  - Output = win_seq_1-5 = "AABC", win_seq_5-10 = "CCDDE", lose_seq_1-5 = "ABCD"
+
+
+#### Proximity
+- https://lolesports.com/article/dev-diary-changes-to-proximity/bltc57ec217dbf2a162
+  - 2000 units
+
+1. Split game df into 5min intervals
+2. ProximityArea = Area of Circle with radius 1000
+3. Using position data of 5 players, count # of triangles with area < ProximityArea
+  - Output = win_prox_1-5 = 3, win_prox_5-10 = 2

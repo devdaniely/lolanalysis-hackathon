@@ -7,17 +7,17 @@ import os
 from io import BytesIO
 
 t_list = [
- "lpl_regional_finals_2023",
- "lpl_summer_2023",
- "lec_spring_2023",
- "lcs_summer_2023",
- "lec_summer_2023",
- "msi_2023",
- #"lck_spring_2023"
+ #"lpl_regional_finals_2023",
+ #"lpl_summer_2023",
+ #"lec_spring_2023",
+ #"lcs_summer_2023",
+ #"lec_summer_2023",
+ #"msi_2023",
+ "lck_spring_2023"
  #"lck_summer_2023"
- "lec_season_finals_2023",
- "lec_winter_2023",
- "lcs_spring_2023"
+ #"lec_season_finals_2023",
+ #"lec_winter_2023",
+ #"lcs_spring_2023"
 ]
 
 
