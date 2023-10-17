@@ -1,0 +1,5 @@
+batch1 - 420.27min
+batch2 - 381.92min
+batch3 - 278.92min
+batch4 - 398.95min
+batch5 - 303.60min

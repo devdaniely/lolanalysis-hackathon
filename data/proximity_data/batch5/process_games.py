@@ -10,17 +10,62 @@ import itertools
 
 
 tournament_list = [
-    # "lpl_regional_finals_2023",
-    # "lpl_summer_2023",
-    # "lec_spring_2023",
-    # "lcs_summer_2023",
-    # "lec_summer_2023",
-    # "msi_2023",
-    "lck_spring_2023"
-    # "lck_summer_2023"
-    # "lec_season_finals_2023",
-    # "lec_winter_2023",
-    # "lcs_spring_2023"
+
+ 'dutch_league_2021_split1',
+ 'elite_series_summer_2022',
+ 'ljl_summer_2021',
+ 'superliga_spring_2021',
+ 'lcs_academy_spring_2020',
+ 'cblol_split_2_2022',
+ 'lla_opening_2022',
+ 'prime_league_spring_2022',
+ 'liga_portuguesa_spring_2022',
+ 'european_masters_summer_2022_main_event',
+ 'ljl_spring_2021',
+ 'esports_balkan_league_spring_2021',
+ 'tal_winter_2020',
+ 'pcs_spring_playoffs_2023',
+ 'lfl_2021_spring',
+ 'lla_opening_2023',
+ 'pg_nationals_spring_2023',
+ 'golden_league_closing_2022',
+ 'master_flow_league_opening_2022',
+ 'lcs_spring_2022',
+ 'lla_closing_2022',
+ 'european_masters_summer_2021_play_ins',
+ 'tcl_winter_2021',
+ 'european_masters_summer_2021_main_event',
+ 'opl_split2_2020',
+ 'cblol_2023_split_1',
+ 'master_flow_league_closing_2022',
+ 'nlc_summer_2022',
+ 'lcl_spring_2021',
+ 'pg_nationals_spring_2021',
+ 'esports_balkan_league_summer_2022',
+ 'european_masters_spring_2022_play_ins',
+ 'pcs_summer_2020',
+ 'ljl_summer_2020',
+ 'lla_promotion_2021',
+ 'european_masters_spring_2021_play_ins',
+ 'arabian_league_spring_2023',
+ 'hitpoint_masters_spring_2022',
+ 'ljl_spring_2022',
+ 'cblol_academy_split_1_2021',
+ 'golden_league_opening_2022',
+ 'pg_nationals_summer_2022',
+ 'lla_opening_2021',
+ 'eu_masters_summer_2020',
+ 'cblol_split_2_2020',
+ 'lcs_amateur_circuit_summer_2022',
+ 'mss_2021',
+ 'college_championship_2022',
+ 'greek_legends_league_spring_2021',
+ 'lcs_spring_2020',
+ 'tal_summer_2020',
+ 'ase_2020',
+ 'baltic_masters_2021_spring',
+ 'lla-closing-2020'
+
 ]
 
 output_headers = [
@@ -28,6 +73,7 @@ output_headers = [
     "gameId",
     "team",
     "win",
+    "proximity_sum",
     "prox_score_1-5",
     "prox_score_5-10",
     "prox_score_10-15",
@@ -152,8 +198,9 @@ def get_proximities(interval):
     win_prox = part_df.apply(get_team_proximities, team=win_team)
     lose_prox = part_df.apply(get_team_proximities, team=lose_team)
 
-    team_prox["win"] = win_prox.sum() / len(win_prox)
-    team_prox["lose"] = lose_prox.sum() / len(lose_prox)
+    if len(win_prox) > 0 and len(lose_prox) > 0:
+        team_prox["win"] = win_prox.sum() / len(win_prox)
+        team_prox["lose"] = lose_prox.sum() / len(lose_prox)
 
     return team_prox
 
@@ -172,7 +219,8 @@ def process_gzip(gzip_bytes, platform_game_id, tournament):
     prox_calc = map(get_proximities, df_intervals)
     team_prox = list(prox_calc)
 
-    append_result(team_prox, platform_game_id, tournament)
+    if len(team_prox) > 0:
+        append_result(team_prox, platform_game_id, tournament)
 
 
 # Add result to output
@@ -186,16 +234,17 @@ def append_result(team_prox, platform_game_id, tournament):
     lose_game_data = [tournament, platform_game_id, team_dict['lose'], 0]
 
     # Append win team
-    win_data_row = win_game_data + list(map(lambda x: x["win"], team_prox))
+    win_list = list(map(lambda x: x["win"], team_prox))
+    win_data_row = win_game_data + [sum(win_list)] + win_list
     win_data_row.extend([None] * (len(output_headers) - len(win_data_row)))
     win_series = pd.Series(win_data_row, output_headers)
 
-    lose_data_row = lose_game_data + list(map(lambda x: x["lose"], team_prox))
+    lose_list = list(map(lambda x: x["lose"], team_prox))
+    lose_data_row = lose_game_data + [sum(lose_list)] + lose_list
     lose_data_row.extend([None] * (len(output_headers) - len(lose_data_row)))
     lose_series = pd.Series(lose_data_row, output_headers)
 
     output_df = output_df.append([win_series, lose_series], ignore_index=True)
-    output_df.to_csv(output_file, index=False)
 
 
 # ------------------- Calculation Functions End --------------------
@@ -224,60 +273,62 @@ def download_process_gzip_data(directory, platform_game_id, tournament):
         print(response.content)
 
 
-def process_games(year):
+def process_games():
     global output_df
 
     start_time = time.time()
-    with open("esports-data/tournaments.json", "r") as json_file:
+    with open("../esports-data/tournaments.json", "r") as json_file:
         tournaments_data = json.load(json_file)
-    with open("esports-data/mapping_data.json", "r") as json_file:
+    with open("../esports-data/mapping_data.json", "r") as json_file:
         mappings_data = json.load(json_file)
-
-    directory = "games"
-    if not os.path.exists(directory):
-        os.makedirs(directory)
 
     mappings = {
         esports_game["esportsGameId"]: esports_game for esports_game in mappings_data
     }
     game_counter = 0
 
+    directory = "games"
+
     for tournament in tournaments_data:
         if tournament["slug"] not in tournament_list:
             continue
 
-        start_date = tournament.get("startDate", "")
-        if start_date.startswith(str(year)):
-            print(f"Processing {tournament['slug']}")
-            for stage in tournament["stages"]:
-                for section in stage["sections"]:
-                    for idx, match in enumerate(section["matches"]):
-                        print("-- Downloading file: " + str(idx) + "/" + str(len(section["matches"])))
-                        for game in match["games"]:
-                            if game["state"] == "completed":
+        #start_date = tournament.get("startDate", "")
+        #if start_date.startswith(str(year)):
+        print(f"Processing {tournament['slug']}")
+        for stage in tournament["stages"]:
+            for section in stage["sections"]:
+                for idx, match in enumerate(section["matches"]):
+                    print("-- Downloading matches: " + str(idx) + "/" + str(len(section["matches"])))
+                    for game in match["games"]:
+                        if game["state"] == "completed":
 
-                                try:
-                                    platform_game_id = mappings[game["id"]]["platformGameId"]
-                                except KeyError:
-                                    print(f"{platform_game_id} {game['id']} not found in the mapping table")
-                                    continue
+                            try:
+                                platform_game_id = mappings[game["id"]]["platformGameId"]
+                            except KeyError:
+                                print(f"{platform_game_id} {game['id']} not found in the mapping table")
+                                continue
 
-                                download_process_gzip_data(directory, platform_game_id, tournament["slug"])
+                            download_process_gzip_data(directory, platform_game_id, tournament["slug"])
 
-                                game_counter += 1
-                                if game_counter % 10 == 0:
-                                    output_df.to_csv(output_file, index=False)
-                                    print(output_df.tail())
-                                    print(
-                                        f"+++++ Processed {game_counter} games. Writing out data, current run time: \
-                                       {round((time.time() - start_time)/60, 2)} minutes"
-                                    )
+                            game_counter += 1
+                            if game_counter % 10 == 0:
+                                output_df.to_csv(output_file, index=False)
+                                print(output_df.tail())
+                                print(
+                                    f"+++++ Processed {game_counter} games. Writing out data, current run time: \
+                                   {round((time.time() - start_time)/60, 2)} minutes"
+                                )
+
+        print(f"Finished {tournament['slug']}, writing out csv...")
+        output_df.to_csv(output_file, index=False)
+
 
 
 if __name__ == "__main__":
   
     try:
-        process_games(2023)
+        process_games()
     except Exception as e:
         print(e)
         output_df.to_csv(output_file, index=False)
