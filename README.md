@@ -20,6 +20,19 @@
 
 --------------
 
+# TODO
+
+1. Connect python script to S3 bucket
+2. EC2 run calculations and place in csv into S3
+3. Combine calculation files and end game data
+4. Run ML on data to find feature weights
+5. Put into ELO formula
+6. Write lambda to calculate ELO based on teams
+7. Connect with API gateway
+
+
+--------------
+
 
 **/esports-data** - contains overview info
 **/games** - contains minute data. Created with downloaddata.py
