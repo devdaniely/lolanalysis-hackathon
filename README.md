@@ -46,6 +46,78 @@
 - TODO: Modify ELO rating with new variables from ML
 - Factor in sequencing/proximity coefficients
 
+## ELO
+Rating (new) = Rating (old) + K * (GameResult - Expected)
+
+Expected = 1 / (1 + 10 ^ ([TeamBRating - TeamARating] / 400) )
+
+K = efficiency differential
+
+## KenPom (Basketball predictive)
+Pythagorean Expectation
+- https://en.wikipedia.org/wiki/Pythagorean_expectation
+
+
+Example: ESPORTSTMNT01_3311408 (TL win, DIG lose)
+```
+| win | totalgold | earnedgold | goldspent |
+|-----|-----------|------------|-----------|
+| 1   | 50211     | 34043      | 42818     |
+| 0   | 39018     | 22850      | 37235     |
+|     |           |            |           |
+```
+
+Passive gold = totalgold - earnedgold
+Actual Gold Spent = goldspent - (passive gold)
+```
+| win | totalgold | earnedgold | goldspent | actualGoldSpent |
+|-----|-----------|------------|-----------|-----------------|
+| 1   | 50211     | 34043      | 42818     | 26650           |
+| 0   | 39018     | 22850      | 37235     | 21157           |
+|     |           |            |           |                 |
+```
+
+
+Modified WinPredict ratio = 
+```
+       actualgoldSpent^x 
+--------------------------------
+actualgoldSpent^x + sumtotalgold^x
+```
+
+- TL = 26650^2 / (26650^2 + 89229^2) = 0.08189800214
+- DIG = 21157^2 / (21157^2 + 89229^2) = 0.05322815987
+
+
+Plugging this into the ELO formula with initial 1200 and K=15
+```
+New Rating A = Old Rating A + K * (Result A - Expected Outcome A)
+New Rating B = Old Rating B + K * (Result B - Expected Outcome B)
+```
+
+- TL = 1200 + 15 * (1 - 0.08189800214) = 1213.77152997
+- DIG = 1200 + 15 * (0 - 0.05322815987) = 1199.2015776
+
+#### Including Proximity in the formula
+
+If we use proximity as the K value
+```
+| win | proximity_sum | normalized (over 6 five min periods) |
+|-----|---------------|--------------------------------------|
+| 1   | 17.14955      | 2.8582583333333333                   |
+| 0   | 13.10038      | 2.1833966666666666                   |
+|     |               |                                      |
+```
+
+- TL = 1200 + (15 + 2.8582583333333333) * (1 - 0.08189800214) = 1216.39570265
+- DIG = 1200 + (15 + 2.1833966666666666) * (0 - 0.05322815987) = 1199.08535942
+
+
+## Glicko Rating
+https://en.wikipedia.org/wiki/Glicko_rating_system
+
+
+-------------------
 
 #### Sequencing
 1. Split game df into 5min intervals
