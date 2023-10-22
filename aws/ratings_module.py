@@ -1,10 +1,11 @@
 import pandas as pd
 import json
 from datetime import datetime, timedelta
+import gzip
 
 ########################## VARIABLES START ##########################
-with open("data/tournaments.json", "r") as json_file:
-  tournaments_json = json.load(json_file)
+with gzip.open("data/tournaments.json.gz", "r") as gz_file:
+  tournaments_json = json.load(gz_file)
 with open("data/mapping_data.json", "r") as json_file:
   mappings_data = json.load(json_file)
 with open("data/teams.json", "r") as json_file:
@@ -157,7 +158,7 @@ def handler_tournament_stage(tournament_id, stage):
   tournaments_data = list(filter(lambda x: x["id"] == tournament_id, tournaments_json))
 
   if len(tournaments_data) != 1:
-    print("Tournament not found! | id: {tournament_id}")
+    print(f"Tournament not found! | id: {tournament_id}")
     return {}
   else:
     tournaments_data = tournaments_data[0]

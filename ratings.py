@@ -1,11 +1,11 @@
 import pandas as pd
 import json
 from datetime import datetime, timedelta
-
+import gzip
 
 # Init variables
-with open("esports-data/tournaments.json", "r") as json_file:
-  tournaments_json = json.load(json_file)
+with gzip.open("data/tournaments.json.gz", "r") as gz_file:
+  tournaments_json = json.load(gz_file)
 with open("esports-data/mapping_data.json", "r") as json_file:
   mappings_data = json.load(json_file)
 with open("esports-data/teams.json", "r") as json_file:

@@ -1,13 +1,14 @@
 import pandas as pd
 import json
 from datetime import datetime, timedelta
+import gzip
 
 ########################## VARIABLES START ##########################
-with open("esports-data/tournaments.json", "r") as json_file:
-  tournaments_json = json.load(json_file)
-with open("esports-data/mapping_data.json", "r") as json_file:
+with gzip.open("data/tournaments.json.gz", "r") as gz_file:
+  tournaments_json = json.load(gz_file)
+with open("data/mapping_data.json", "r") as json_file:
   mappings_data = json.load(json_file)
-with open("esports-data/teams.json", "r") as json_file:
+with open("data/teams.json", "r") as json_file:
   teams_data = json.load(json_file)
 
 # Key is 109517090067719793
@@ -24,7 +25,7 @@ team_mappings = {
   team_data["team_id"]: team_data for team_data in teams_data
 }
 
-overview_data = pd.read_csv("./data/all_data.csv", engine="pyarrow")
+overview_data = pd.read_csv("data/all_data.csv", engine="pyarrow")
 BLUE_SIDE = "100"
 RED_SIDE = "200"
 BLUE_SIDE_INT = 100
@@ -157,7 +158,7 @@ def handler_tournament_stage(tournament_id, stage):
   tournaments_data = list(filter(lambda x: x["id"] == tournament_id, tournaments_json))
 
   if len(tournaments_data) != 1:
-    print("Tournament not found! | id: {tournament_id}")
+    print(f"Tournament not found! | id: {tournament_id}")
     return {}
   else:
     tournaments_data = tournaments_data[0]
@@ -273,15 +274,15 @@ def get_ratings_6months_prior(tournaments_data, team_ids):
 
 
 
-if __name__ == "__main__":
 
-  #get_games_tournament_stage("105873410870441926", "round_1")
-  #get_games_tournament_stage("105873410870441926", None)
 
-  # MSI 2021
-  ratings = handler_tournament_stage("105873410870441926", "round_1")
-  print(ratings)
+#get_games_tournament_stage("105873410870441926", "round_1")
+#get_games_tournament_stage("105873410870441926", None)
 
-  # Team liquid vs digitas example
-  #get_ratings(["98926509885559666", "98926509883054987"], ["109517090067719793"])
-  #print(overview_data.head())
+# MSI 2021
+#ratings = handler_tournament_stage("105873410870441926", "round_1")
+#print(ratings)
+
+# Team liquid vs digitas example
+#get_ratings(["98926509885559666", "98926509883054987"], ["109517090067719793"])
+#print(overview_data.head())
