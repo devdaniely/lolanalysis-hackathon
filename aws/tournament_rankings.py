@@ -1,6 +1,7 @@
 import json
 import traceback
 from urllib.parse import urlparse
+import ratings_module as module
 
 '''
 Python 3 Boilerplate for AWS Lambda Proxy Integration
@@ -49,35 +50,47 @@ def response_proxy(data):
   response["body"] = json.dumps(data["body"])
   return response
 
-def request_proxy(data):
-  request = {}
-  request = data
-  return request
-  
 
+def response_no_stage():
+  response = {}
+  response["body"] = {
+    "message": "No stage provided!"
+  }
+  return response
 
 # Local testing: python-lambda-local -f handler -t 5 tournament_rankings.py event.json
 def handler(event, context):
   response = {}
-  try:
-    request = request_proxy(event)
-    response["statusCode"] = 200
-    response["headers"] = {}
-    '''
-    Add your key/values to be returned here
+  print("REQUEST: ------------------------------")
+  print(event)
 
-    '''   
-    data = {
-      "request_data": str(request)
-    }
-    response["body"]=data
+  try:
+    # Get event tournament id and stage
+    tournament_id = event["pathParameters"]["tournament_id"]
+    stage = None
+
+    if "stage" not in event["queryStringParameters"]:
+      response = response_no_stage()
+      response["statusCode"] = 200
+      return response
+
+    stage = event["queryStringParameters"]["stage"]
+
+    # Get rating info
+    ratings = module.handler_tournament_stage(tournament_id, stage)
+    response["body"] = list(ratings.values())
 
   except Exception as e:
     traceback.print_exc()
-    response["statusCode"] = 500
-    response["body"] = {}   
-    
-  return response_proxy(response)
+    response["statusCode"] = 400
+    response["body"] = {
+      "message": "ERROR occurred :("
+    }   
+  
+  print("RESPONSE: ------------------------------")
+  print(response)
+  return response
+
 
 
 '''

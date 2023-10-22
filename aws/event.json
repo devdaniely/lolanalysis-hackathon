@@ -6,18 +6,18 @@
     "multiValueHeaders": null,
     "queryStringParameters":
     {
-        "stage": "worlds"
+        "stage": "round_1"
     },
     "multiValueQueryStringParameters":
     {
         "stage":
         [
-            "worlds"
+            "round_1"
         ]
     },
     "pathParameters":
     {
-        "tournament_id": "lol_tournament_test"
+        "tournament_id": "105873410870441926"
     },
     "stageVariables": null,
     "requestContext":
