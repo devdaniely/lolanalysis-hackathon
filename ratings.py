@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import gzip
 
 # Init variables
-with gzip.open("data/tournaments.json.gz", "r") as gz_file:
+with gzip.open("esports-data/tournaments.json.gz", "r") as gz_file:
   tournaments_json = json.load(gz_file)
 with open("esports-data/mapping_data.json", "r") as json_file:
   mappings_data = json.load(json_file)
@@ -112,6 +112,7 @@ def get_ratings_6months_prior(tournaments_data, team_ids):
   data_start = data_end - timedelta(days=180)
 
   # greater than the start date and smaller than the end date
+  # 2023-01-13 01:07:50
   overview_data['date'] = pd.to_datetime(overview_data['date'])
   mask = (overview_data['date'] >= data_start) & (overview_data['date'] < data_end)
   trim_overview_data = overview_data.loc[mask]
@@ -173,6 +174,97 @@ def handler_tournament_stage(tournament_id, stage):
   team_dict = get_ratings(team_ids, tournament_game_ids)
   ranked_dict = add_team_metadata(team_dict)
   print(ranked_dict)
+
+
+def handler_team_rankings(team_ids):
+  '''
+  Returns a list of rankings for each team in the provided
+  list of team ids.
+
+  Sample Output:
+    [
+      {
+          "team_id": "109631326144414089",
+          "team_code": "19",
+          "team_name": "19 Esports",
+          "rank": 1250.410386439273
+      },
+      {
+          "team_id": "109631541326560210",
+          "team_code": "RVN",
+          "team_name": "Reven Esports",
+          "rank": 1099.5943032910154
+      }
+    ]
+  '''
+  print(f"[INFO] handler_team_rankings - Calculating rankings for teams: {team_ids}")
+
+  # Copy all game data and convert teamid column to strings
+  all_data = overview_data
+  all_data['teamid'] = all_data['teamid'].astype(str) 
+  
+  # Get list of games that each team participated in
+  platform_games_df = all_data[all_data['teamid'].isin(team_ids)]
+  if platform_games_df.shape[0] == 0:
+    printf("[WARNING] handler_team_rankings - Could not find any games for teams {team_ids}.")
+    return []
+  
+  # Get list of platform game ids
+  platform_game_ids = platform_games_df['gameid'].str.replace('_', ':')
+
+  # Covert platform game ids to esl game ids
+  esl_game_ids = get_esl_games_from_platform_ids(platform_game_ids)
+  
+
+  # Rank the teams based on their performance in the list of esl games  
+  team_ratings_dict = get_ratings(team_ids, esl_game_ids)
+
+  # Get ratings for each team
+  ratings = []
+  for team_id in team_ids:
+
+    if team_id not in team_ratings_dict:
+      print(f"[ERROR] handler_team_rankings - Could not find teamId {team_id} in the get_ratings dictionary.\n")
+      continue
+
+    if team_id not in team_mappings:
+      print(f"[ERROR] handler_team_rankings - Could not find teamId {team_id} in the team_mappings dictionary.\n")
+      continue
+
+    team_rating = team_ratings_dict[team_id]
+    team_mapping = team_mappings[team_id]
+
+    ratings.append(
+      {
+        'team_id': team_id,
+        'team_code': team_mapping['acronym'],
+        'team_name': team_mapping['name'],
+        'rank': team_rating['elo']
+      }
+    )
+
+  return ratings
+
+
+
+
+def get_esl_games_from_platform_ids(platform_game_ids):
+  '''
+  Maps each platform game id to an ESL game ID and returns the
+  result as a list.
+  '''
+
+  esl_game_ids = []
+  for platform_game_id in platform_game_ids:
+
+    if platform_game_id not in platformGameIdMappings:
+      print(f"[WARNING] get_esl_games_from_platform_ids - Could not find platform game id {platform_game_id} in platformGameIdMappings.\n")
+      continue
+
+    platform_game_id_mapping = platformGameIdMappings[platform_game_id]
+    esl_game_ids.append(platform_game_id_mapping['esportsGameId'])
+
+  return esl_game_ids
 
 
 
@@ -243,6 +335,7 @@ def get_ratings(initial_team_ids, esports_game_ids):
 
     # skip if game missing
     if esports_game_id not in esportsGameIdMappings.keys():
+      print(f"[WARNING] get_ratings - Esports game id {esports_game_id} not found in esports game id map.")
       continue
 
     game_map = esportsGameIdMappings[esports_game_id]
@@ -349,7 +442,10 @@ if __name__ == "__main__":
   #get_games_tournament_stage("105873410870441926", None)
 
   # MSI 2021
-  handler_tournament_stage("105873410870441926", "round_1")
+  # handler_tournament_stage("105873410870441926", "round_1")
+
+  team_rankings = handler_team_rankings(["109631326144414089", "109631541326560210"])
+  print(f"[INFO] Team Rankings: {team_rankings}")
 
   # Team liquid vs digitas example
   #get_ratings(["98926509885559666", "98926509883054987"], ["109517090067719793"])
