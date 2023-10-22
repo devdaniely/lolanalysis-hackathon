@@ -1,1 +1,2 @@
 python-lambda-local -f handler -t 5 tournament_rankings.py event.json
+python-lambda-local -f handler -t 5 team_rankings/team_rankings.py team_rankings/team_event.json

@@ -11,3 +11,4 @@
 /notebook/.ipynb_checkpoints
 /notebook/.ipynb_checkpoints
 /notebook/AutogluonModels
+*.DS_Store
