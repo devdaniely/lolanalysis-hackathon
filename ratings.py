@@ -218,32 +218,13 @@ def handler_team_rankings(team_ids):
 
   # Rank the teams based on their performance in the list of esl games  
   team_ratings_dict = get_ratings(team_ids, esl_game_ids)
-
-  # Get ratings for each team
-  ratings = []
+  
+  ratings_dict = {}
   for team_id in team_ids:
+    ratings_dict[team_id] = team_ratings_dict[team_id]
 
-    if team_id not in team_ratings_dict:
-      print(f"[ERROR] handler_team_rankings - Could not find teamId {team_id} in the get_ratings dictionary.\n")
-      continue
 
-    if team_id not in team_mappings:
-      print(f"[ERROR] handler_team_rankings - Could not find teamId {team_id} in the team_mappings dictionary.\n")
-      continue
-
-    team_rating = team_ratings_dict[team_id]
-    team_mapping = team_mappings[team_id]
-
-    ratings.append(
-      {
-        'team_id': team_id,
-        'team_code': team_mapping['acronym'],
-        'team_name': team_mapping['name'],
-        'rank': team_rating['elo']
-      }
-    )
-
-  return ratings
+  return add_team_metadata(ratings_dict)
 
 
 
