@@ -43,8 +43,22 @@
 
 --------------
 # Formula
-- TODO: Modify ELO rating with new variables from ML
-- Factor in sequencing/proximity coefficients
+
+
+Rating (new) = Rating (old) + K * (GameResult - Expected * DiffWinPredictRatio)
+
+Expected = 1 / (1 + 10 ^ ([ProxSumA - ProxSumB] / 400) )
+
+
+DiffWinPredictRatio = Difference in Pythagorean Expectation of each team in gold 
+```
+       actualgoldSpent^x 
+--------------------------------
+actualgoldSpent^x + sumtotalgold^x
+
+```
+
+
 
 ## ELO
 Rating (new) = Rating (old) + K * (GameResult - Expected)
@@ -78,7 +92,7 @@ Actual Gold Spent = goldspent - (passive gold)
 ```
 
 
-Modified WinPredict ratio = 
+## WinPredict ratio = 
 ```
        actualgoldSpent^x 
 --------------------------------
@@ -100,17 +114,62 @@ New Rating B = Old Rating B + K * (Result B - Expected Outcome B)
 
 #### Including Proximity in the formula
 
-If we use proximity as the K value
+Proximity data
 ```
-| win | proximity_sum | normalized (over 6 five min periods) |
-|-----|---------------|--------------------------------------|
-| 1   | 17.14955      | 2.8582583333333333                   |
-| 0   | 13.10038      | 2.1833966666666666                   |
-|     |               |                                      |
+| win | proximity_sum |
+|-----|---------------|
+| 1   | 17.14955      |
+| 0   | 13.10038      | 
+|     |               | 
 ```
 
-- TL = 1200 + (15 + 2.8582583333333333) * (1 - 0.08189800214) = 1216.39570265
-- DIG = 1200 + (15 + 2.1833966666666666) * (0 - 0.05322815987) = 1199.08535942
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Rating (new) = Rating (old) + K * (GameResult - (Expected + DiffWinPredictRatio))
+
+Expected = 1 / (1 + 10 ^ ([ProxSumA - ProxSumB] / 400) )
+
+DiffWinPredictRatio = Difference in Pythagorean Expectation of each team in gold 
+
+
+Expect = 1 / (1 + 10 ^ ((17.141955 - 13.10038) / 400))
+  - 0.49418396836
+DiffWinPredictRatio = 0.09873115791991857 - 0.06650851712236172
+  - 0.03222264079
+Rating: 1200 + 15 * (1 - (0.49418396836 + 0.03222264079))
+
+TL = 1207.10390086
+DIG = 1192.10390086
+
+Proximity scores are running averages
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Glicko Rating

@@ -1,0 +1,1 @@
+python-lambda-local -f handler -t 5 tournament_rankings.py event.json
