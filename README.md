@@ -10,13 +10,9 @@
 - Calculating ELO: https://leagueoflegends.fandom.com/wiki/Elo_rating_system#Calculating_Elo
 - Getting Proximity: https://lolesports.com/article/dev-diary-changes-to-proximity/bltc57ec217dbf2a162
   - https://www.doranslab.gg/articles/location-based-champ-metrics.html
-
-- FIFA: https://digitalhub.fifa.com/m/f99da4f73212220/original/edbm045h0udbwkqew35a-pdf.pdf
 - NCAA Basketball Ranking Formula: https://towardsdatascience.com/college-basketballs-net-rankings-explained-25faa0ce71ed
-
-
-#### Code References: 
-- https://github.com/kylekap/Sports_Ranking_Systems
+- KenPom Basketball: https://kenpom.com/blog/ratings-explanation/
+- FIFA: https://digitalhub.fifa.com/m/f99da4f73212220/original/edbm045h0udbwkqew35a-pdf.pdf
 
 #### External Data:
 - https://oracleselixir.com/stats/teams/byTournament
@@ -149,7 +145,7 @@ Proximity scores are running averages:
 - TeamA_game1 proximity_sum = 10
 - TeamA_game1 proximity_score = 10
 - TeamA_game2 proximity_sum = 6
-- TeamA_game2 proximity_score = **8**
+- **TeamA_game2 proximity_score = 8**
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
