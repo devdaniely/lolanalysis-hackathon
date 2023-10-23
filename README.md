@@ -7,8 +7,10 @@
 - https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/global_rankings?number_of_teams=50
 
 ### `/tournament_rankings/{tournament_id}?stage={stage_name}`
-- https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/tournament_rankings/105873410870441926
-- https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/tournament_rankings/105873410870441926?stage=round_1
+- API Gateway
+  - https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/tournament_rankings/105873410870441926?stage=round_1
+- Lambda Invoke
+  - https://hpbgvizwe3dxaiydlvjh5y3xli0vymmz.lambda-url.us-west-2.on.aws/tournament_rankings/105873410870441926?stage=round_1
 
 ### `/team_rankings?team_ids={team_ids_array}`
 - API Gateway

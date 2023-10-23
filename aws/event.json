@@ -6,18 +6,18 @@
     "multiValueHeaders": null,
     "queryStringParameters":
     {
-        "stage": "round_1"
+        "stage": "play_in_groups"
     },
     "multiValueQueryStringParameters":
     {
         "stage":
         [
-            "round_1"
+            "play_in_groups"
         ]
     },
     "pathParameters":
     {
-        "tournament_id": "105873410870441926"
+        "tournament_id": "108998961191900167"
     },
     "stageVariables": null,
     "requestContext":

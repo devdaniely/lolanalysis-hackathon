@@ -276,9 +276,9 @@ def handler_tournament_stage(tournament_id, stage):
 
   team_ids = get_tournament_team_ids(tournaments_data, stage)
 
-  team_dict = get_ratings_6months_prior(tournaments_data, team_ids)
+  team_ratings_dict = get_ratings_6months_prior(tournaments_data, team_ids)
 
-  result = add_team_metadata(team_dict)
+  result = add_team_metadata(team_ratings_dict)
 
 
   return result
