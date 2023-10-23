@@ -43,16 +43,14 @@ def response_proxy(data):
   '''
   response = {}
   response["isBase64Encoded"] = False
-  response["statusCode"] = data["statusCode"]
+  response["statusCode"] = 200
   response["headers"] = {}
-  if "headers" in data:
-    response["headers"] = data["headers"]
-  response["body"] = json.dumps(data["body"])
+  response["body"] = json.dumps(data)
   return response
 
 
 def response_no_stage():
-  response = {}
+  response = response_proxy(None)
   response["body"] = {
     "message": "No stage provided!"
   }
@@ -78,7 +76,7 @@ def handler(event, context):
 
     # Get rating info
     ratings = module.handler_tournament_stage(tournament_id, stage)
-    response["body"] = list(ratings.values())
+    response = response_proxy(list(ratings.values()))
 
   except Exception as e:
     traceback.print_exc()

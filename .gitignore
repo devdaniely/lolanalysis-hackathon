@@ -7,6 +7,7 @@
 /aws/pandas
 /aws/pyarrow
 /aws/__pycache__
+/aws/libs
 /notebook/MLU
 /notebook/.ipynb_checkpoints
 /notebook/.ipynb_checkpoints
