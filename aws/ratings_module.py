@@ -56,6 +56,7 @@ def get_ratings(initial_team_ids, esports_game_ids):
       continue
 
     game_df = overview_data[overview_data["gameid"] == game_id]
+    game_df = game_df.drop_duplicates()
 
     # Teams for game
     teamA_id = game_map['teamMapping'][BLUE_SIDE]
@@ -152,31 +153,7 @@ def create_team_dict_entry(elo=1200, message=""):
 ########################## RATINGS FUNCTIONS END ##########################
 
 
-
-# Main Lambda handler
-def handler_tournament_stage(tournament_id, stage):
-  tournaments_data = list(filter(lambda x: x["id"] == tournament_id, tournaments_json))
-
-  if len(tournaments_data) != 1:
-    print(f"Tournament not found! | id: {tournament_id}")
-    return {}
-  else:
-    tournaments_data = tournaments_data[0]
-
-  print("----- Getting team_ids")
-  team_ids = get_tournament_team_ids(tournaments_data, stage)
-  print(team_ids)
-
-  print("----- Get ratings")
-  team_dict = get_ratings_6months_prior(tournaments_data, team_ids)
-
-  print("----- Adding metadata")
-  result = add_team_metadata(team_dict)
-  print(result)
-
-  return result
-
-
+########################## UTIL FUNCTIONS START ##########################
 '''
 Prepare API response structure
 
@@ -198,14 +175,16 @@ def add_team_metadata(team_dict):
   sorted_dict = dict(sorted(team_dict.items(), key=lambda item: item[1]['elo'], reverse=True))
 
   for team_id, team_data in sorted_dict.items():
-    team_data["team_id"] = team_id
-    team_data["team_code"] = team_mappings[team_id]["acronym"]
-    team_data["team_name"] = team_mappings[team_id]["name"]
-    team_data["rank"] = rank
-    rank += 1
-
-    new_key = team_mappings[team_id]["name"]
-    new_dict[new_key] = team_data
+    if team_id in team_mappings.keys():
+      team_data["team_id"] = team_id
+      team_data["team_code"] = team_mappings[team_id]["acronym"]
+      team_data["team_name"] = team_mappings[team_id]["name"]
+      team_data["rank"] = rank
+      rank += 1
+      new_key = team_mappings[team_id]["name"]
+      new_dict[new_key] = team_data
+    else:
+      new_dict[team_id] = team_data
 
   return new_dict
 
@@ -266,6 +245,128 @@ def get_ratings_6months_prior(tournaments_data, team_ids):
     team_dict[team_id] = team_rating_dict[team_id]
 
   return team_dict
+
+########################## UTIL FUNCTIONS END ##########################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def handler_tournament_stage(tournament_id, stage):
+  tournaments_data = list(filter(lambda x: x["id"] == tournament_id, tournaments_json))
+
+  if len(tournaments_data) != 1:
+    print(f"Tournament not found! | id: {tournament_id}")
+    return {
+      "message": f"Tournament not found! | id: {tournament_id}"
+    }
+  else:
+    tournaments_data = tournaments_data[0]
+
+
+  team_ids = get_tournament_team_ids(tournaments_data, stage)
+
+  team_dict = get_ratings_6months_prior(tournaments_data, team_ids)
+
+  result = add_team_metadata(team_dict)
+
+
+  return result
+
+
+
+
+
+def handler_team_rankings(team_ids):
+  '''
+  Returns a list of rankings for each team in the provided
+  list of team ids.
+
+  Sample Output:
+    [
+      {
+          "team_id": "109631326144414089",
+          "team_code": "19",
+          "team_name": "19 Esports",
+          "rank": 1250.410386439273
+      },
+      {
+          "team_id": "109631541326560210",
+          "team_code": "RVN",
+          "team_name": "Reven Esports",
+          "rank": 1099.5943032910154
+      }
+    ]
+  '''
+  #print(f"[INFO] handler_team_rankings - Calculating rankings for teams: {team_ids}")
+
+  # Copy all game data and convert teamid column to strings
+  all_data = overview_data
+  all_data['teamid'] = all_data['teamid'].astype(str) 
+  
+  # Get list of games that each team participated in
+  platform_games_df = all_data[all_data['teamid'].isin(team_ids)]
+  if platform_games_df.shape[0] == 0:
+    print(f"[WARNING] handler_team_rankings - Could not find any games for teams {team_ids}.")
+    return {
+      "message": f"Could not find any games for teams {team_ids}"
+    }
+  
+  # Get list of platform game ids
+  platform_game_ids = platform_games_df['gameid'].str.replace('_', ':')
+
+  # Covert platform game ids to esl game ids
+  esl_game_ids = get_esl_games_from_platform_ids(platform_game_ids)
+  
+
+  # Rank the teams based on their performance in the list of esl games  
+  team_ratings_dict = get_ratings(team_ids, esl_game_ids)
+  
+  ratings_dict = {}
+  for team_id in team_ids:
+    if team_id in team_ratings_dict:
+      ratings_dict[team_id] = team_ratings_dict[team_id]
+    else:
+      ratings_dict[team_id] = create_team_dict_entry(-1, f"Could not find team with id: {team_id}")
+
+  return add_team_metadata(ratings_dict)
+
+
+
+
+def get_esl_games_from_platform_ids(platform_game_ids):
+  '''
+  Maps each platform game id to an ESL game ID and returns the
+  result as a list.
+  '''
+
+  esl_game_ids = []
+  for platform_game_id in platform_game_ids:
+
+    if platform_game_id not in platformGameIdMappings:
+      #print(f"[WARNING] get_esl_games_from_platform_ids - Could not find platform game id {platform_game_id} in platformGameIdMappings.\n")
+      continue
+
+    platform_game_id_mapping = platformGameIdMappings[platform_game_id]
+    esl_game_ids.append(platform_game_id_mapping['esportsGameId'])
+
+  return esl_game_ids
+
+
+
+
+
+
 
 
 

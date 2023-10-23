@@ -1,0 +1,3808 @@
+{
+    "Gen.G":
+    {
+        "elo": 1542.4440994095976,
+        "prox_score": 21.145536597204895,
+        "prox_sum": 2579.755464858997,
+        "games_played": 122,
+        "team_id": "100205573495116443",
+        "team_code": "GEN",
+        "team_name": "Gen.G",
+        "rank": 1
+    },
+    "kt Rolster":
+    {
+        "elo": 1488.0839428947215,
+        "prox_score": 21.79134458665016,
+        "prox_sum": 2440.630593704818,
+        "games_played": 112,
+        "team_id": "99566404579461230",
+        "team_code": "KT",
+        "team_name": "kt Rolster",
+        "rank": 2
+    },
+    "DenizBank Ä°stanbul Wildcats":
+    {
+        "elo": 1472.756152003064,
+        "prox_score": 23.011519884211566,
+        "prox_sum": 1518.7603123579634,
+        "games_played": 66,
+        "team_id": "102235771678061291",
+        "team_code": "IW",
+        "team_name": "DenizBank Ä°stanbul Wildcats",
+        "rank": 3
+    },
+    "DK Challengers":
+    {
+        "elo": 1453.8754780122802,
+        "prox_score": 21.750307127230954,
+        "prox_sum": 2566.5362410132525,
+        "games_played": 118,
+        "team_id": "105550026570060790",
+        "team_code": "DK",
+        "team_name": "DK Challengers",
+        "rank": 4
+    },
+    "GTZ Esports":
+    {
+        "elo": 1439.330612647564,
+        "prox_score": 22.14924055191329,
+        "prox_sum": 1218.208230355231,
+        "games_played": 55,
+        "team_id": "105593951536470384",
+        "team_code": "GTZ",
+        "team_name": "GTZ Esports",
+        "rank": 5
+    },
+    "GAM Esports":
+    {
+        "elo": 1430.914389153718,
+        "prox_score": 20.341411234388623,
+        "prox_sum": 1729.0199549230329,
+        "games_played": 85,
+        "team_id": "98767991954244555",
+        "team_code": "GAM",
+        "team_name": "GAM Esports",
+        "rank": 6
+    },
+    "DetonatioN FocusMe":
+    {
+        "elo": 1424.1600059954949,
+        "prox_score": 21.99420188635515,
+        "prox_sum": 1495.6057282721501,
+        "games_played": 68,
+        "team_id": "100285330168091787",
+        "team_code": "DFM",
+        "team_name": "DetonatioN FocusMe",
+        "rank": 7
+    },
+    "G2 Esports":
+    {
+        "elo": 1420.9373908971581,
+        "prox_score": 20.98700230029071,
+        "prox_sum": 1636.9861794226754,
+        "games_played": 78,
+        "team_id": "98767991926151025",
+        "team_code": "G2",
+        "team_name": "G2 Esports",
+        "rank": 8
+    },
+    "Unicorns of Love Sexy Edition":
+    {
+        "elo": 1411.3223549580991,
+        "prox_score": 21.55788197948206,
+        "prox_sum": 1724.630558358565,
+        "games_played": 80,
+        "team_id": "105504044166670507",
+        "team_code": "USE",
+        "team_name": "Unicorns of Love Sexy Edition",
+        "rank": 9
+    },
+    "Anorthosis Famagusta Esports":
+    {
+        "elo": 1410.3560622453538,
+        "prox_score": 22.159151765657228,
+        "prox_sum": 1595.4589271273205,
+        "games_played": 72,
+        "team_id": "105521706535388095",
+        "team_code": "ANO",
+        "team_name": "Anorthosis Famagusta Esports",
+        "rank": 10
+    },
+    "PSG Talon":
+    {
+        "elo": 1410.1718024367156,
+        "prox_score": 24.651212815457015,
+        "prox_sum": 1454.4215561119638,
+        "games_played": 59,
+        "team_id": "104367068120825486",
+        "team_code": "PSG",
+        "team_name": "PSG Talon",
+        "rank": 11
+    },
+    "Cloud9":
+    {
+        "elo": 1399.3585673092691,
+        "prox_score": 22.419821881324832,
+        "prox_sum": 1479.708244167439,
+        "games_played": 66,
+        "team_id": "98767991877340524",
+        "team_code": "C9",
+        "team_name": "Cloud9",
+        "rank": 12
+    },
+    "DRX Challengers":
+    {
+        "elo": 1393.960577568231,
+        "prox_score": 22.872618042696825,
+        "prox_sum": 2584.605838824741,
+        "games_played": 113,
+        "team_id": "105550033967461806",
+        "team_code": "DRX",
+        "team_name": "DRX Challengers",
+        "rank": 13
+    },
+    "Macko Esports":
+    {
+        "elo": 1388.6391703368872,
+        "prox_score": 22.133431218345702,
+        "prox_sum": 1150.9384233539765,
+        "games_played": 52,
+        "team_id": "105536918475957734",
+        "team_code": "MCK",
+        "team_name": "Macko Esports",
+        "rank": 14
+    },
+    "T1":
+    {
+        "elo": 1378.3595271113443,
+        "prox_score": 22.164623949592222,
+        "prox_sum": 3014.3888571445423,
+        "games_played": 136,
+        "team_id": "98767991853197861",
+        "team_code": "T1",
+        "team_name": "T1",
+        "rank": 15
+    },
+    "Saprissa Esports":
+    {
+        "elo": 1374.4633249420897,
+        "prox_score": 22.86587783880671,
+        "prox_sum": 960.3668692298818,
+        "games_played": 42,
+        "team_id": "107581759470356115",
+        "team_code": "SAP",
+        "team_name": "Saprissa Esports",
+        "rank": 16
+    },
+    "Entropiq":
+    {
+        "elo": 1371.6716355549534,
+        "prox_score": 21.528913445700386,
+        "prox_sum": 1205.6191529592215,
+        "games_played": 56,
+        "team_id": "107575082591536093",
+        "team_code": "EIQ",
+        "team_name": "Entropiq",
+        "rank": 17
+    },
+    "Fuego":
+    {
+        "elo": 1370.6113864734061,
+        "prox_score": 21.45572362799776,
+        "prox_sum": 1137.1533522838813,
+        "games_played": 53,
+        "team_id": "107581765633427097",
+        "team_code": "FUE",
+        "team_name": "Fuego",
+        "rank": 18
+    },
+    "SK Gaming Prime":
+    {
+        "elo": 1362.8958985022805,
+        "prox_score": 23.5465546047891,
+        "prox_sum": 1530.5260493112917,
+        "games_played": 65,
+        "team_id": "105559480124455983",
+        "team_code": "SKP",
+        "team_name": "SK Gaming Prime",
+        "rank": 19
+    },
+    "LOUD":
+    {
+        "elo": 1359.7676193098973,
+        "prox_score": 25.73614087942502,
+        "prox_sum": 1544.1684527655011,
+        "games_played": 60,
+        "team_id": "105397404796640412",
+        "team_code": "LLL",
+        "team_name": "LOUD",
+        "rank": 20
+    },
+    "Orbit Anonymo":
+    {
+        "elo": 1352.4773584153293,
+        "prox_score": 22.89573684681768,
+        "prox_sum": 1213.474052881337,
+        "games_played": 53,
+        "team_id": "109800832177252614",
+        "team_code": "OAE",
+        "team_name": "Orbit Anonymo",
+        "rank": 21
+    },
+    "Fukuoka SoftBank HAWKS gaming":
+    {
+        "elo": 1351.1624647579026,
+        "prox_score": 24.148107442578773,
+        "prox_sum": 1738.6637358656717,
+        "games_played": 72,
+        "team_id": "103535282119620510",
+        "team_code": "SHG",
+        "team_name": "Fukuoka SoftBank HAWKS gaming",
+        "rank": 22
+    },
+    "Team GO":
+    {
+        "elo": 1350.3864929567414,
+        "prox_score": 24.526305418147214,
+        "prox_sum": 2011.1570442880716,
+        "games_played": 82,
+        "team_id": "103935468920814040",
+        "team_code": "GO",
+        "team_name": "Team GO",
+        "rank": 23
+    },
+    "Cloud9 Challengers":
+    {
+        "elo": 1342.7812407171318,
+        "prox_score": 22.608069773339356,
+        "prox_sum": 1039.9712095736104,
+        "games_played": 46,
+        "team_id": "99566405130451785",
+        "team_code": "C9",
+        "team_name": "Cloud9 Challengers",
+        "rank": 24
+    },
+    "Sengoku Gaming":
+    {
+        "elo": 1342.060038715685,
+        "prox_score": 21.257263315729023,
+        "prox_sum": 1509.2656954167608,
+        "games_played": 71,
+        "team_id": "101428372605353526",
+        "team_code": "SG",
+        "team_name": "Sengoku Gaming",
+        "rank": 25
+    },
+    "Zero Tenacity":
+    {
+        "elo": 1340.9849326522758,
+        "prox_score": 21.493122430616495,
+        "prox_sum": 1117.6423663920577,
+        "games_played": 52,
+        "team_id": "105553606349477427",
+        "team_code": "Z10",
+        "team_name": "Zero Tenacity",
+        "rank": 26
+    },
+    "FlyQuest Challengers":
+    {
+        "elo": 1339.723436638691,
+        "prox_score": 21.646774790894483,
+        "prox_sum": 1969.8565059713978,
+        "games_played": 91,
+        "team_id": "99566405126602853",
+        "team_code": "FLY",
+        "team_name": "FlyQuest Challengers",
+        "rank": 27
+    },
+    "Beyond Gaming":
+    {
+        "elo": 1329.5951471028945,
+        "prox_score": 23.7608914735291,
+        "prox_sum": 1188.044573676455,
+        "games_played": 50,
+        "team_id": "106269804045322803",
+        "team_code": "BYG",
+        "team_name": "Beyond Gaming",
+        "rank": 28
+    },
+    "NONGSHIM ESPORTS ACADEMY":
+    {
+        "elo": 1328.9004280845215,
+        "prox_score": 20.993532406095984,
+        "prox_sum": 2099.3532406095983,
+        "games_played": 100,
+        "team_id": "105550054006182911",
+        "team_code": "NS",
+        "team_name": "NONGSHIM ESPORTS ACADEMY",
+        "rank": 29
+    },
+    "Geekay Esports":
+    {
+        "elo": 1325.981445406716,
+        "prox_score": 26.219537905741934,
+        "prox_sum": 1389.6355090043226,
+        "games_played": 53,
+        "team_id": "109696126554266494",
+        "team_code": "GK",
+        "team_name": "Geekay Esports",
+        "rank": 30
+    },
+    "Dignitas Challengers":
+    {
+        "elo": 1325.196295931196,
+        "prox_score": 22.366985867144127,
+        "prox_sum": 1006.5143640214857,
+        "games_played": 45,
+        "team_id": "103461966981927044",
+        "team_code": "DIG",
+        "team_name": "Dignitas Challengers",
+        "rank": 31
+    },
+    "Partizan Esports":
+    {
+        "elo": 1324.9564327352757,
+        "prox_score": 25.080044049450485,
+        "prox_sum": 1429.5625108186778,
+        "games_played": 57,
+        "team_id": "108404211655217274",
+        "team_code": "PAR",
+        "team_name": "Partizan Esports",
+        "rank": 32
+    },
+    "Team Liquid Honda Challengers":
+    {
+        "elo": 1323.0899881141038,
+        "prox_score": 22.83913751370531,
+        "prox_sum": 2169.7180638020045,
+        "games_played": 95,
+        "team_id": "99566405124618295",
+        "team_code": "TL",
+        "team_name": "Team Liquid Honda Challengers",
+        "rank": 33
+    },
+    "Primate":
+    {
+        "elo": 1316.502856435132,
+        "prox_score": 24.014732636401877,
+        "prox_sum": 1152.7071665472902,
+        "games_played": 48,
+        "team_id": "109674814051390025",
+        "team_code": "PMT",
+        "team_name": "Primate",
+        "rank": 34
+    },
+    "Wap Esports":
+    {
+        "elo": 1313.7389812906401,
+        "prox_score": 23.89881920200168,
+        "prox_sum": 1433.9291521201008,
+        "games_played": 60,
+        "team_id": "107598805167594304",
+        "team_code": "WAP",
+        "team_name": "Wap Esports",
+        "rank": 35
+    },
+    "Bandits Gaming":
+    {
+        "elo": 1313.3222531941465,
+        "prox_score": 23.803160914195278,
+        "prox_sum": 928.3232756536158,
+        "games_played": 39,
+        "team_id": "107581689894520368",
+        "team_code": "BAN",
+        "team_name": "Bandits Gaming",
+        "rank": 36
+    },
+    "WLGaming Esports":
+    {
+        "elo": 1311.362023721634,
+        "prox_score": 23.331028390199425,
+        "prox_sum": 1539.847873753162,
+        "games_played": 66,
+        "team_id": "102787200149928963",
+        "team_code": "WLG",
+        "team_name": "WLGaming Esports",
+        "rank": 37
+    },
+    "kt Challengers":
+    {
+        "elo": 1308.963873463913,
+        "prox_score": 23.46617957914665,
+        "prox_sum": 2370.084137493812,
+        "games_played": 101,
+        "team_id": "105550049871017396",
+        "team_code": "KT",
+        "team_name": "kt Challengers",
+        "rank": 38
+    },
+    "Movistar R7":
+    {
+        "elo": 1307.6423003315901,
+        "prox_score": 23.2242703951533,
+        "prox_sum": 1486.3533052898113,
+        "games_played": 64,
+        "team_id": "98767991935149427",
+        "team_code": "R7",
+        "team_name": "Movistar R7",
+        "rank": 39
+    },
+    "SHG Academy":
+    {
+        "elo": 1306.256570937741,
+        "prox_score": 20.784263370987176,
+        "prox_sum": 540.3908476456666,
+        "games_played": 26,
+        "team_id": "106827832203113865",
+        "team_code": "SHG",
+        "team_name": "SHG Academy",
+        "rank": 40
+    },
+    "Estral Esports":
+    {
+        "elo": 1305.006693539649,
+        "prox_score": 23.497120112492034,
+        "prox_sum": 1292.3416061870619,
+        "games_played": 55,
+        "team_id": "104841890701948065",
+        "team_code": "EST",
+        "team_name": "Estral Esports",
+        "rank": 41
+    },
+    "Macro Pampas":
+    {
+        "elo": 1302.635144223868,
+        "prox_score": 24.57731134383469,
+        "prox_sum": 516.1235382205285,
+        "games_played": 21,
+        "team_id": "107598788926820994",
+        "team_code": "PAM",
+        "team_name": "Macro Pampas",
+        "rank": 42
+    },
+    "Disguised":
+    {
+        "elo": 1301.9453108796072,
+        "prox_score": 24.120177502814283,
+        "prox_sum": 1206.008875140714,
+        "games_played": 50,
+        "team_id": "110428362822825796",
+        "team_code": "DSG",
+        "team_name": "Disguised",
+        "rank": 43
+    },
+    "Zylant Esports":
+    {
+        "elo": 1297.8873648147191,
+        "prox_score": 22.10074564872819,
+        "prox_sum": 552.5186412182047,
+        "games_played": 25,
+        "team_id": "107581300297680248",
+        "team_code": "ZLT",
+        "team_name": "Zylant Esports",
+        "rank": 44
+    },
+    "Vivo Keyd Stars Academy":
+    {
+        "elo": 1296.501108082896,
+        "prox_score": 24.491723675222108,
+        "prox_sum": 1420.5199731628823,
+        "games_played": 58,
+        "team_id": "109485335453835911",
+        "team_code": "VKS",
+        "team_name": "Vivo Keyd Stars Academy",
+        "rank": 45
+    },
+    "paiN Gaming":
+    {
+        "elo": 1295.5558508234762,
+        "prox_score": 25.65109413190116,
+        "prox_sum": 1462.1123655183662,
+        "games_played": 57,
+        "team_id": "99566408217955692",
+        "team_code": "PNG",
+        "team_name": "paiN Gaming",
+        "rank": 46
+    },
+    "DSYRE":
+    {
+        "elo": 1290.5013430658091,
+        "prox_score": 23.01955661871756,
+        "prox_sum": 1312.114727266901,
+        "games_played": 57,
+        "team_id": "108352305932141947",
+        "team_code": "DSYR",
+        "team_name": "DSYRE",
+        "rank": 47
+    },
+    "Movistar Riders":
+    {
+        "elo": 1286.5717996003552,
+        "prox_score": 23.367223706643514,
+        "prox_sum": 1612.3384357584025,
+        "games_played": 69,
+        "team_id": "103877625775457850",
+        "team_code": "MRS",
+        "team_name": "Movistar Riders",
+        "rank": 48
+    },
+    "Zeus Kralik":
+    {
+        "elo": 1285.816385692603,
+        "prox_score": 24.086598702012193,
+        "prox_sum": 650.3381649543292,
+        "games_played": 27,
+        "team_id": "107603600826620492",
+        "team_code": "Z5K",
+        "team_name": "Zeus Kralik",
+        "rank": 49
+    },
+    "Mirage Alliance":
+    {
+        "elo": 1282.846367743107,
+        "prox_score": 19.942173517448143,
+        "prox_sum": 518.4965114536517,
+        "games_played": 26,
+        "team_id": "109981650516317055",
+        "team_code": "MIR",
+        "team_name": "Mirage Alliance",
+        "rank": 50
+    },
+    "HLE Challengers":
+    {
+        "elo": 1280.2201673712802,
+        "prox_score": 23.357817015487864,
+        "prox_sum": 2382.497335579762,
+        "games_played": 102,
+        "team_id": "105550047979361273",
+        "team_code": "HLE",
+        "team_name": "HLE Challengers",
+        "rank": 51
+    },
+    "Dplus Kia":
+    {
+        "elo": 1279.9267690546103,
+        "prox_score": 21.506554614495265,
+        "prox_sum": 1871.070251461088,
+        "games_played": 87,
+        "team_id": "100725845018863243",
+        "team_code": "DK",
+        "team_name": "Dplus Kia",
+        "rank": 52
+    },
+    "Cincinnati Fear":
+    {
+        "elo": 1275.728892416296,
+        "prox_score": 22.910229577485218,
+        "prox_sum": 2176.4718098610956,
+        "games_played": 95,
+        "team_id": "108361552741927561",
+        "team_code": "FEAR",
+        "team_name": "Cincinnati Fear",
+        "rank": 53
+    },
+    "Frank Esports":
+    {
+        "elo": 1271.70109470284,
+        "prox_score": 23.5838866504645,
+        "prox_sum": 1532.9526322801926,
+        "games_played": 65,
+        "team_id": "107760667929003738",
+        "team_code": "FAK",
+        "team_name": "Frank Esports",
+        "rank": 54
+    },
+    "Riddle Esports":
+    {
+        "elo": 1270.0955966270496,
+        "prox_score": 22.449431618257158,
+        "prox_sum": 606.1346536929433,
+        "games_played": 27,
+        "team_id": "104710354840711661",
+        "team_code": "RDL",
+        "team_name": "Riddle Esports",
+        "rank": 55
+    },
+    "Karmine Corp":
+    {
+        "elo": 1269.4969597644833,
+        "prox_score": 23.05430513248558,
+        "prox_sum": 991.3351206968799,
+        "games_played": 43,
+        "team_id": "105515219038427019",
+        "team_code": "KC",
+        "team_name": "Karmine Corp",
+        "rank": 56
+    },
+    "CTBC Flying Oyster":
+    {
+        "elo": 1265.6704666827109,
+        "prox_score": 24.18793931087285,
+        "prox_sum": 1499.6522372741167,
+        "games_played": 62,
+        "team_id": "107700199633958891",
+        "team_code": "CFO",
+        "team_name": "CTBC Flying Oyster",
+        "rank": 57
+    },
+    "FUT ESPORTS":
+    {
+        "elo": 1265.3329681634573,
+        "prox_score": 22.532556305216037,
+        "prox_sum": 1397.0184909233942,
+        "games_played": 62,
+        "team_id": "109669678317817381",
+        "team_code": "FUT",
+        "team_name": "FUT ESPORTS",
+        "rank": 58
+    },
+    "Cyber Wolves Esports":
+    {
+        "elo": 1265.1182141817396,
+        "prox_score": 24.752530993871094,
+        "prox_sum": 1064.358832736457,
+        "games_played": 43,
+        "team_id": "107597870621708485",
+        "team_code": "CWE",
+        "team_name": "Cyber Wolves Esports",
+        "rank": 59
+    },
+    "Los Heretics":
+    {
+        "elo": 1263.4696140665617,
+        "prox_score": 24.37572157154297,
+        "prox_sum": 1535.6704590072072,
+        "games_played": 63,
+        "team_id": "107467803833323099",
+        "team_code": "HRTS",
+        "team_name": "Los Heretics",
+        "rank": 60
+    },
+    "Diamant Esports":
+    {
+        "elo": 1262.8565029782994,
+        "prox_score": 24.79091114019305,
+        "prox_sum": 1437.8728461311969,
+        "games_played": 58,
+        "team_id": "107597875833524424",
+        "team_code": "DIA",
+        "team_name": "Diamant Esports",
+        "rank": 61
+    },
+    "TEAM WHALES":
+    {
+        "elo": 1262.6705937959566,
+        "prox_score": 22.89580541191904,
+        "prox_sum": 1831.6644329535231,
+        "games_played": 80,
+        "team_id": "108573042084687884",
+        "team_code": "TW",
+        "team_name": "TEAM WHALES",
+        "rank": 62
+    },
+    "Beijing JDG Intel Esports Club":
+    {
+        "elo": 1262.2479904300176,
+        "prox_score": 21.25183168993274,
+        "prox_sum": 318.7774753489911,
+        "games_played": 15,
+        "team_id": "99566404852189289",
+        "team_code": "JDG",
+        "team_name": "Beijing JDG Intel Esports Club",
+        "rank": 63
+    },
+    "Team Tony Top":
+    {
+        "elo": 1257.1371885369258,
+        "prox_score": 23.377313924493485,
+        "prox_sum": 724.696731659298,
+        "games_played": 31,
+        "team_id": "109783023470714128",
+        "team_code": "TONY",
+        "team_name": "Team Tony Top",
+        "rank": 64
+    },
+    "SG Academy":
+    {
+        "elo": 1256.848626571582,
+        "prox_score": 20.685306689898542,
+        "prox_sum": 475.76205386766645,
+        "games_played": 23,
+        "team_id": "106827844148688268",
+        "team_code": "SG",
+        "team_name": "SG Academy",
+        "rank": 65
+    },
+    "Waia Snikt":
+    {
+        "elo": 1253.3313353488493,
+        "prox_score": 22.971891726570618,
+        "prox_sum": 1194.5383697816721,
+        "games_played": 52,
+        "team_id": "107582184905264520",
+        "team_code": "WS",
+        "team_name": "Waia Snikt",
+        "rank": 66
+    },
+    "KRC Genk Esports":
+    {
+        "elo": 1253.0574432348908,
+        "prox_score": 22.10081216522662,
+        "prox_sum": 1370.2503542440504,
+        "games_played": 62,
+        "team_id": "105520786527322647",
+        "team_code": "GENK",
+        "team_name": "KRC Genk Esports",
+        "rank": 67
+    },
+    "KaBuM! Academy":
+    {
+        "elo": 1252.0157898895427,
+        "prox_score": 25.028365159539415,
+        "prox_sum": 1176.3331624983525,
+        "games_played": 47,
+        "team_id": "105549995617170853",
+        "team_code": "KBM",
+        "team_name": "KaBuM! Academy",
+        "rank": 68
+    },
+    "Golden Guardians":
+    {
+        "elo": 1250.2171062236976,
+        "prox_score": 22.478210318298366,
+        "prox_sum": 1865.6914564187643,
+        "games_played": 83,
+        "team_id": "99294153824386385",
+        "team_code": "GG",
+        "team_name": "Golden Guardians",
+        "rank": 69
+    },
+    "100 Thieves Challengers":
+    {
+        "elo": 1249.930632090977,
+        "prox_score": 21.372879985329185,
+        "prox_sum": 833.5423194278383,
+        "games_played": 39,
+        "team_id": "99566405128626825",
+        "team_code": "100",
+        "team_name": "100 Thieves Challengers",
+        "rank": 70
+    },
+    "Team 7AM":
+    {
+        "elo": 1249.4657355571906,
+        "prox_score": 21.72864107591992,
+        "prox_sum": 1173.3466180996757,
+        "games_played": 54,
+        "team_id": "105520796734358045",
+        "team_code": "7AM",
+        "team_name": "Team 7AM",
+        "rank": 71
+    },
+    "Nord Esports":
+    {
+        "elo": 1248.0608750309812,
+        "prox_score": 23.783329654361683,
+        "prox_sum": 1331.8664606442542,
+        "games_played": 56,
+        "team_id": "109642680932009857",
+        "team_code": "NORD",
+        "team_name": "Nord Esports",
+        "rank": 72
+    },
+    "CLG Challengers":
+    {
+        "elo": 1244.9417148403998,
+        "prox_score": 23.056782447788198,
+        "prox_sum": 876.1577330159515,
+        "games_played": 38,
+        "team_id": "99566405123587075",
+        "team_code": "CLG",
+        "team_name": "CLG Challengers",
+        "rank": 73
+    },
+    "The Chiefs":
+    {
+        "elo": 1243.4048362910517,
+        "prox_score": 22.83479482970737,
+        "prox_sum": 1552.7660484201012,
+        "games_played": 68,
+        "team_id": "99566406332987990",
+        "team_code": "CHF",
+        "team_name": "The Chiefs",
+        "rank": 74
+    },
+    "Hanwha Life Esports":
+    {
+        "elo": 1243.368178857094,
+        "prox_score": 21.80991375831427,
+        "prox_sum": 2333.6607721396267,
+        "games_played": 107,
+        "team_id": "100205573496804586",
+        "team_code": "HLE",
+        "team_name": "Hanwha Life Esports",
+        "rank": 75
+    },
+    "Bilibili Gaming Pingan Bank":
+    {
+        "elo": 1243.1254594380664,
+        "prox_score": 24.024075885107212,
+        "prox_sum": 600.6018971276803,
+        "games_played": 25,
+        "team_id": "99566404853854212",
+        "team_code": "BLG",
+        "team_name": "Bilibili Gaming Pingan Bank",
+        "rank": 76
+    },
+    "RED Kalunga":
+    {
+        "elo": 1237.5369793996108,
+        "prox_score": 26.55346847550103,
+        "prox_sum": 1248.0130183485485,
+        "games_played": 47,
+        "team_id": "99566408221961358",
+        "team_code": "RED",
+        "team_name": "RED Kalunga",
+        "rank": 77
+    },
+    "Maryville University":
+    {
+        "elo": 1237.2708899379077,
+        "prox_score": 22.802662013950663,
+        "prox_sum": 1755.804975074201,
+        "games_played": 77,
+        "team_id": "102141671183409133",
+        "team_code": "MU",
+        "team_name": "Maryville University",
+        "rank": 78
+    },
+    "19 Esports":
+    {
+        "elo": 1237.23770432932,
+        "prox_score": 22.124103889691895,
+        "prox_sum": 597.3508050216811,
+        "games_played": 27,
+        "team_id": "109631326144414089",
+        "team_code": "19",
+        "team_name": "19 Esports",
+        "rank": 79
+    },
+    "Descuydado Aucas Esports":
+    {
+        "elo": 1236.3116834776379,
+        "prox_score": 22.40594923528218,
+        "prox_sum": 1120.297461764109,
+        "games_played": 50,
+        "team_id": "107582157086477662",
+        "team_code": "DSC",
+        "team_name": "Descuydado Aucas Esports",
+        "rank": 80
+    },
+    "Eintracht Spandau":
+    {
+        "elo": 1236.1852149089975,
+        "prox_score": 21.887142767728196,
+        "prox_sum": 984.9214245477688,
+        "games_played": 45,
+        "team_id": "107416483509696259",
+        "team_code": "EINS",
+        "team_name": "Eintracht Spandau",
+        "rank": 81
+    },
+    "Wildcard":
+    {
+        "elo": 1235.9754266189439,
+        "prox_score": 21.857815425016504,
+        "prox_sum": 1814.1986802763697,
+        "games_played": 83,
+        "team_id": "105913238372341488",
+        "team_code": "WC",
+        "team_name": "Wildcard",
+        "rank": 82
+    },
+    "Verdant":
+    {
+        "elo": 1235.6537520904938,
+        "prox_score": 23.92427090632972,
+        "prox_sum": 1267.9863580354752,
+        "games_played": 53,
+        "team_id": "107565477822627354",
+        "team_code": "VER",
+        "team_name": "Verdant",
+        "rank": 83
+    },
+    "Goskilla":
+    {
+        "elo": 1235.1886021434284,
+        "prox_score": 25.576877177895295,
+        "prox_sum": 179.03814024526707,
+        "games_played": 7,
+        "team_id": "105543843212923183",
+        "team_code": "GSK",
+        "team_name": "Goskilla",
+        "rank": 84
+    },
+    "Team Bliss":
+    {
+        "elo": 1233.852036469694,
+        "prox_score": 21.918998392157114,
+        "prox_sum": 1337.058901921584,
+        "games_played": 61,
+        "team_id": "109675484017801229",
+        "team_code": "TB",
+        "team_name": "Team Bliss",
+        "rank": 85
+    },
+    "Six Karma":
+    {
+        "elo": 1233.304940327517,
+        "prox_score": 24.24007741223393,
+        "prox_sum": 1381.684412497334,
+        "games_played": 57,
+        "team_id": "107581284487120142",
+        "team_code": "6K",
+        "team_name": "Six Karma",
+        "rank": 86
+    },
+    "Berlin International Gaming":
+    {
+        "elo": 1232.7608359644678,
+        "prox_score": 23.12411651471948,
+        "prox_sum": 1225.5781752801324,
+        "games_played": 53,
+        "team_id": "102787200136756173",
+        "team_code": "BIG",
+        "team_name": "Berlin International Gaming",
+        "rank": 87
+    },
+    "Dynamo Eclot":
+    {
+        "elo": 1231.8268571405424,
+        "prox_score": 22.48208317775409,
+        "prox_sum": 899.2833271101637,
+        "games_played": 40,
+        "team_id": "106382545123328648",
+        "team_code": "DNE",
+        "team_name": "Dynamo Eclot",
+        "rank": 88
+    },
+    "Pirate Dream":
+    {
+        "elo": 1231.19614578983,
+        "prox_score": 24.314979747338324,
+        "prox_sum": 972.599189893533,
+        "games_played": 40,
+        "team_id": "107582178455767077",
+        "team_code": "PD",
+        "team_name": "Pirate Dream",
+        "rank": 89
+    },
+    "LDLC OL":
+    {
+        "elo": 1229.1576267729733,
+        "prox_score": 24.859652597614765,
+        "prox_sum": 1342.4212402711973,
+        "games_played": 54,
+        "team_id": "103877675241047720",
+        "team_code": "LDLC",
+        "team_name": "LDLC OL",
+        "rank": 90
+    },
+    "Winthrop University":
+    {
+        "elo": 1228.8474504397116,
+        "prox_score": 22.256878487802133,
+        "prox_sum": 890.2751395120853,
+        "games_played": 40,
+        "team_id": "107580483738977500",
+        "team_code": "WU",
+        "team_name": "Winthrop University",
+        "rank": 91
+    },
+    "Ruddy Esports":
+    {
+        "elo": 1227.4423068630615,
+        "prox_score": 23.36297542050488,
+        "prox_sum": 794.341164297166,
+        "games_played": 34,
+        "team_id": "109642690191894407",
+        "team_code": "RUD",
+        "team_name": "Ruddy Esports",
+        "rank": 92
+    },
+    "RAAD":
+    {
+        "elo": 1227.0424001965234,
+        "prox_score": 24.196950859524396,
+        "prox_sum": 1209.8475429762198,
+        "games_played": 50,
+        "team_id": "109695910533747910",
+        "team_code": "RAAD",
+        "team_name": "RAAD",
+        "rank": 93
+    },
+    "Furious Gaming":
+    {
+        "elo": 1225.7770360362547,
+        "prox_score": 24.573640348266025,
+        "prox_sum": 860.0774121893108,
+        "games_played": 35,
+        "team_id": "99566408356697119",
+        "team_code": "FG",
+        "team_name": "Furious Gaming",
+        "rank": 94
+    },
+    "Team Ambition":
+    {
+        "elo": 1224.3031886842955,
+        "prox_score": 21.089708246320054,
+        "prox_sum": 949.0368710844025,
+        "games_played": 45,
+        "team_id": "107580497041999074",
+        "team_code": "TA",
+        "team_name": "Team Ambition",
+        "rank": 95
+    },
+    "Bisons":
+    {
+        "elo": 1223.4001959281024,
+        "prox_score": 24.052596784907045,
+        "prox_sum": 1130.4720488906312,
+        "games_played": 47,
+        "team_id": "107467834753797729",
+        "team_code": "BSO",
+        "team_name": "Bisons",
+        "rank": 96
+    },
+    "BarÃ§a Esports":
+    {
+        "elo": 1223.2380231813972,
+        "prox_score": 24.25999892815259,
+        "prox_sum": 1043.1799539105614,
+        "games_played": 43,
+        "team_id": "107422385694193066",
+        "team_code": "BAR",
+        "team_name": "BarÃ§a Esports",
+        "rank": 97
+    },
+    "Golden Guardians Challengers":
+    {
+        "elo": 1222.209920793166,
+        "prox_score": 20.444878190630295,
+        "prox_sum": 797.3502494345815,
+        "games_played": 39,
+        "team_id": "99566405129589291",
+        "team_code": "GG",
+        "team_name": "Golden Guardians Challengers",
+        "rank": 98
+    },
+    "Atleta Esport":
+    {
+        "elo": 1221.0447909841685,
+        "prox_score": 21.504558280000136,
+        "prox_sum": 430.09116560000274,
+        "games_played": 20,
+        "team_id": "107456994699991548",
+        "team_code": "ATE",
+        "team_name": "Atleta Esport",
+        "rank": 99
+    },
+    "XTEN Esports":
+    {
+        "elo": 1220.9615707665241,
+        "prox_score": 22.21247712778369,
+        "prox_sum": 66.63743138335107,
+        "games_played": 3,
+        "team_id": "99566408561605102",
+        "team_code": "XTN",
+        "team_name": "XTEN Esports",
+        "rank": 100
+    },
+    "Incubus":
+    {
+        "elo": 1219.455664736898,
+        "prox_score": 22.692038204176715,
+        "prox_sum": 544.6089169002412,
+        "games_played": 24,
+        "team_id": "107582618156093368",
+        "team_code": "INC",
+        "team_name": "Incubus",
+        "rank": 101
+    },
+    "Team E Turner":
+    {
+        "elo": 1218.9726841917832,
+        "prox_score": 19.733573196791856,
+        "prox_sum": 138.13501237754298,
+        "games_played": 7,
+        "team_id": "110733864366329081",
+        "team_code": "TET",
+        "team_name": "Team E Turner",
+        "rank": 102
+    },
+    "Alior Bank Team":
+    {
+        "elo": 1218.6924870001735,
+        "prox_score": 22.725363470831404,
+        "prox_sum": 1204.4442639540644,
+        "games_played": 53,
+        "team_id": "109539776003058530",
+        "team_code": "AB",
+        "team_name": "Alior Bank Team",
+        "rank": 103
+    },
+    "V3 Academy":
+    {
+        "elo": 1218.1077341888501,
+        "prox_score": 21.04325617633868,
+        "prox_sum": 589.2111729374831,
+        "games_played": 28,
+        "team_id": "106827827857159558",
+        "team_code": "V3",
+        "team_name": "V3 Academy",
+        "rank": 104
+    },
+    "Team Coachify":
+    {
+        "elo": 1218.0065655565288,
+        "prox_score": 20.968693928581636,
+        "prox_sum": 230.655633214398,
+        "games_played": 11,
+        "team_id": "110733870612047344",
+        "team_code": "CFY",
+        "team_name": "Team Coachify",
+        "rank": 105
+    },
+    "Rebels":
+    {
+        "elo": 1216.2333424646306,
+        "prox_score": 23.53459627927363,
+        "prox_sum": 1035.5222362880397,
+        "games_played": 44,
+        "team_id": "107564167676290839",
+        "team_code": "RBLS",
+        "team_name": "Rebels",
+        "rank": 106
+    },
+    "Team BDS":
+    {
+        "elo": 1215.8603176563036,
+        "prox_score": 24.32098707063865,
+        "prox_sum": 1337.6542888851259,
+        "games_played": 55,
+        "team_id": "107563714667537640",
+        "team_code": "BDS",
+        "team_name": "Team BDS",
+        "rank": 107
+    },
+    "Dire Wolves":
+    {
+        "elo": 1215.375442206797,
+        "prox_score": 23.525945408969875,
+        "prox_sum": 893.9859255408552,
+        "games_played": 38,
+        "team_id": "98767991921462763",
+        "team_code": "DW",
+        "team_name": "Dire Wolves",
+        "rank": 108
+    },
+    "River Plate Gaming":
+    {
+        "elo": 1215.211699374081,
+        "prox_score": 25.39463233291447,
+        "prox_sum": 380.91948499371705,
+        "games_played": 15,
+        "team_id": "107598785733448849",
+        "team_code": "RIV",
+        "team_name": "River Plate Gaming",
+        "rank": 109
+    },
+    "Native Gaming":
+    {
+        "elo": 1214.3185837561512,
+        "prox_score": 22.28207509338572,
+        "prox_sum": 334.2311264007858,
+        "games_played": 15,
+        "team_id": "109782787975510889",
+        "team_code": "N8V",
+        "team_name": "Native Gaming",
+        "rank": 110
+    },
+    "FL Academy":
+    {
+        "elo": 1213.4095028070542,
+        "prox_score": 21.00310949610135,
+        "prox_sum": 441.0652994181283,
+        "games_played": 21,
+        "team_id": "110506938087991033",
+        "team_code": "FL",
+        "team_name": "FL Academy",
+        "rank": 111
+    },
+    "J Team":
+    {
+        "elo": 1212.8701066203064,
+        "prox_score": 22.584423323668457,
+        "prox_sum": 948.5457795940752,
+        "games_played": 42,
+        "team_id": "99566406490127625",
+        "team_code": "JT",
+        "team_name": "J Team",
+        "rank": 112
+    },
+    "Anubis Gaming":
+    {
+        "elo": 1211.9156960301789,
+        "prox_score": 22.737916917318405,
+        "prox_sum": 954.992510527373,
+        "games_played": 42,
+        "team_id": "109696073114910519",
+        "team_code": "ANB",
+        "team_name": "Anubis Gaming",
+        "rank": 113
+    },
+    "SBTC ESPORTS":
+    {
+        "elo": 1211.4013030335054,
+        "prox_score": 23.14169868449199,
+        "prox_sum": 1295.9351263315514,
+        "games_played": 56,
+        "team_id": "107251231972989211",
+        "team_code": "SE",
+        "team_name": "SBTC ESPORTS",
+        "rank": 114
+    },
+    "Mad Kings":
+    {
+        "elo": 1209.5388285215681,
+        "prox_score": 25.120509348203775,
+        "prox_sum": 502.41018696407554,
+        "games_played": 20,
+        "team_id": "109698757443650056",
+        "team_code": "MKE",
+        "team_name": "Mad Kings",
+        "rank": 115
+    },
+    "GeekSide Esports":
+    {
+        "elo": 1209.510132116121,
+        "prox_score": 23.10635613363176,
+        "prox_sum": 531.4461910735305,
+        "games_played": 23,
+        "team_id": "107582173169864040",
+        "team_code": "GSE",
+        "team_name": "GeekSide Esports",
+        "rank": 116
+    },
+    "INFINITY":
+    {
+        "elo": 1207.977414697476,
+        "prox_score": 24.797778927256214,
+        "prox_sum": 1289.484504217323,
+        "games_played": 52,
+        "team_id": "99566408562477641",
+        "team_code": "INF",
+        "team_name": "INFINITY",
+        "rank": 117
+    },
+    "BK ROG Esports":
+    {
+        "elo": 1207.7615843962974,
+        "prox_score": 22.577654319637123,
+        "prox_sum": 1015.9944443836705,
+        "games_played": 45,
+        "team_id": "107450819235010833",
+        "team_code": "BKR",
+        "team_name": "BK ROG Esports",
+        "rank": 118
+    },
+    "The Agency":
+    {
+        "elo": 1205.3015385563438,
+        "prox_score": 23.577419622755713,
+        "prox_sum": 518.7032317006257,
+        "games_played": 22,
+        "team_id": "105520819263036609",
+        "team_code": "AGC",
+        "team_name": "The Agency",
+        "rank": 119
+    },
+    "FlyQuest":
+    {
+        "elo": 1203.5758155566261,
+        "prox_score": 23.517268817853527,
+        "prox_sum": 1105.3116344391158,
+        "games_played": 47,
+        "team_id": "98926509892121852",
+        "team_code": "FLY",
+        "team_name": "FlyQuest",
+        "rank": 120
+    },
+    "FLUXO":
+    {
+        "elo": 1202.816478341051,
+        "prox_score": 26.292952754497836,
+        "prox_sum": 1156.8899211979049,
+        "games_played": 44,
+        "team_id": "109480056092207899",
+        "team_code": "FX",
+        "team_name": "FLUXO",
+        "rank": 121
+    },
+    "Isurus":
+    {
+        "elo": 1202.6663871939106,
+        "prox_score": 23.564020778012793,
+        "prox_sum": 1248.893101234678,
+        "games_played": 53,
+        "team_id": "99566408358330419",
+        "team_code": "ISG",
+        "team_name": "Isurus",
+        "rank": 122
+    },
+    "Saigon Buffalo Esports":
+    {
+        "elo": 1202.4973186812178,
+        "prox_score": 22.009398248372573,
+        "prox_sum": 1540.6578773860801,
+        "games_played": 70,
+        "team_id": "107251245690956393",
+        "team_code": "SGB",
+        "team_name": "Saigon Buffalo Esports",
+        "rank": 123
+    },
+    "Nigma Galaxy":
+    {
+        "elo": 1201.036308225378,
+        "prox_score": 22.90830180000764,
+        "prox_sum": 1168.3233918003896,
+        "games_played": 51,
+        "team_id": "109696092218588987",
+        "team_code": "NGX",
+        "team_name": "Nigma Galaxy",
+        "rank": 124
+    },
+    "PEACE":
+    {
+        "elo": 1199.8479950797498,
+        "prox_score": 23.96576171933751,
+        "prox_sum": 47.93152343867502,
+        "games_played": 2,
+        "team_id": "105709099258505657",
+        "team_code": "PCE",
+        "team_name": "PEACE",
+        "rank": 125
+    },
+    "Cold Hearted":
+    {
+        "elo": 1199.0599270196099,
+        "prox_score": 20.9235594403822,
+        "prox_sum": 41.8471188807644,
+        "games_played": 2,
+        "team_id": "110733881542862348",
+        "team_code": "COLD",
+        "team_name": "Cold Hearted",
+        "rank": 126
+    },
+    "Eclipse Gaming":
+    {
+        "elo": 1198.685840617918,
+        "prox_score": 24.741623504476184,
+        "prox_sum": 1138.1146812059044,
+        "games_played": 46,
+        "team_id": "109676337359108345",
+        "team_code": "ECG",
+        "team_name": "Eclipse Gaming",
+        "rank": 127
+    },
+    "FTW Esports":
+    {
+        "elo": 1198.004978502344,
+        "prox_score": 23.551672662573328,
+        "prox_sum": 942.0669065029331,
+        "games_played": 40,
+        "team_id": "102787200132955066",
+        "team_code": "FTW",
+        "team_name": "FTW Esports",
+        "rank": 128
+    },
+    "Team Liquid Honda":
+    {
+        "elo": 1197.9443717393847,
+        "prox_score": 23.543229313317692,
+        "prox_sum": 1318.4208415457908,
+        "games_played": 56,
+        "team_id": "98926509885559666",
+        "team_code": "TL",
+        "team_name": "Team Liquid Honda",
+        "rank": 129
+    },
+    "The Cheese Chasers":
+    {
+        "elo": 1196.6839736595898,
+        "prox_score": 23.55675374299753,
+        "prox_sum": 235.5675374299753,
+        "games_played": 10,
+        "team_id": "110534749775658790",
+        "team_code": "NPC",
+        "team_name": "The Cheese Chasers",
+        "rank": 130
+    },
+    "Santiago Wanderers":
+    {
+        "elo": 1196.2879218417536,
+        "prox_score": 25.887950437957432,
+        "prox_sum": 258.8795043795743,
+        "games_played": 10,
+        "team_id": "107599089191671351",
+        "team_code": "SW",
+        "team_name": "Santiago Wanderers",
+        "rank": 131
+    },
+    "Maycam Evolve":
+    {
+        "elo": 1196.2473749218823,
+        "prox_score": 20.1944336795114,
+        "prox_sum": 201.944336795114,
+        "games_played": 10,
+        "team_id": "107598780504331406",
+        "team_code": "EV",
+        "team_name": "Maycam Evolve",
+        "rank": 132
+    },
+    "Vipers":
+    {
+        "elo": 1195.2762371608294,
+        "prox_score": 24.935873577744516,
+        "prox_sum": 723.140333754591,
+        "games_played": 29,
+        "team_id": "109699042809864069",
+        "team_code": "VIPS",
+        "team_name": "Vipers",
+        "rank": 133
+    },
+    "Cruzados Esports":
+    {
+        "elo": 1195.171296559019,
+        "prox_score": 23.448996763430245,
+        "prox_sum": 281.38796116116293,
+        "games_played": 12,
+        "team_id": "107598982142057588",
+        "team_code": "UC",
+        "team_name": "Cruzados Esports",
+        "rank": 134
+    },
+    "Gentle Hearts Gaming":
+    {
+        "elo": 1194.9436518877676,
+        "prox_score": 19.690836971541167,
+        "prox_sum": 157.52669577232933,
+        "games_played": 8,
+        "team_id": "110733877357854829",
+        "team_code": "GHG",
+        "team_name": "Gentle Hearts Gaming",
+        "rank": 135
+    },
+    "SPIKE Syndicate":
+    {
+        "elo": 1194.376516508639,
+        "prox_score": 23.8456066927084,
+        "prox_sum": 381.5297070833344,
+        "games_played": 16,
+        "team_id": "110418022381234710",
+        "team_code": "SPK",
+        "team_name": "SPIKE Syndicate",
+        "rank": 136
+    },
+    "eSuba":
+    {
+        "elo": 1193.829043327642,
+        "prox_score": 22.28001010914648,
+        "prox_sum": 1403.6406368762282,
+        "games_played": 63,
+        "team_id": "102787200129022886",
+        "team_code": "ESB",
+        "team_name": "eSuba",
+        "rank": 137
+    },
+    "Lit Esports":
+    {
+        "elo": 1193.8138224297888,
+        "prox_score": 20.35362331309725,
+        "prox_sum": 630.9623227060147,
+        "games_played": 31,
+        "team_id": "109783149221216052",
+        "team_code": "LIT",
+        "team_name": "Lit Esports",
+        "rank": 138
+    },
+    "A One Man Army":
+    {
+        "elo": 1193.6488129599913,
+        "prox_score": 21.439197692831442,
+        "prox_sum": 385.90555847096596,
+        "games_played": 18,
+        "team_id": "110424394375218208",
+        "team_code": "AOMA",
+        "team_name": "A One Man Army",
+        "rank": 139
+    },
+    "Schalke 04 Esports":
+    {
+        "elo": 1193.48554448352,
+        "prox_score": 24.560523892472066,
+        "prox_sum": 1056.102527376299,
+        "games_played": 43,
+        "team_id": "99322214689444546",
+        "team_code": "S04",
+        "team_name": "Schalke 04 Esports",
+        "rank": 140
+    },
+    "Evil Geniuses LG":
+    {
+        "elo": 1193.315989297859,
+        "prox_score": 22.75800037768698,
+        "prox_sum": 1183.416019639723,
+        "games_played": 52,
+        "team_id": "103461966951059521",
+        "team_code": "EG",
+        "team_name": "Evil Geniuses LG",
+        "rank": 141
+    },
+    "Giants":
+    {
+        "elo": 1192.9562230163983,
+        "prox_score": 22.82330411518354,
+        "prox_sum": 1027.0486851832593,
+        "games_played": 45,
+        "team_id": "102787200126663579",
+        "team_code": "GIA",
+        "team_name": "Giants",
+        "rank": 142
+    },
+    "Rock Bottom Esports":
+    {
+        "elo": 1192.650707644713,
+        "prox_score": 21.612344078876497,
+        "prox_sum": 302.57281710427094,
+        "games_played": 14,
+        "team_id": "109981644490281844",
+        "team_code": "ROCK",
+        "team_name": "Rock Bottom Esports",
+        "rank": 143
+    },
+    "Maze Gaming":
+    {
+        "elo": 1192.2290711054984,
+        "prox_score": 26.12971308017953,
+        "prox_sum": 470.33483544323155,
+        "games_played": 18,
+        "team_id": "107599144012469862",
+        "team_code": "MAZ",
+        "team_name": "Maze Gaming",
+        "rank": 144
+    },
+    "Atheris Esports":
+    {
+        "elo": 1191.268915022709,
+        "prox_score": 22.715628598444965,
+        "prox_sum": 408.8813147720094,
+        "games_played": 18,
+        "team_id": "107581206998502078",
+        "team_code": "ATH",
+        "team_name": "Atheris Esports",
+        "rank": 145
+    },
+    "NRG":
+    {
+        "elo": 1189.8969671509926,
+        "prox_score": 24.134150348072588,
+        "prox_sum": 820.561111834468,
+        "games_played": 34,
+        "team_id": "106972778172351142",
+        "team_code": "NRG",
+        "team_name": "NRG",
+        "rank": 146
+    },
+    "Godel Gamers":
+    {
+        "elo": 1189.7842305318154,
+        "prox_score": 22.968679341000694,
+        "prox_sum": 160.78075538700486,
+        "games_played": 7,
+        "team_id": "109783130654973406",
+        "team_code": "GODL",
+        "team_name": "Godel Gamers",
+        "rank": 147
+    },
+    "Horizon Gaming":
+    {
+        "elo": 1189.4484447093546,
+        "prox_score": 21.164603490443522,
+        "prox_sum": 148.15222443310466,
+        "games_played": 7,
+        "team_id": "109782867012820172",
+        "team_code": "HZG",
+        "team_name": "Horizon Gaming",
+        "rank": 148
+    },
+    "University of St. Trevor":
+    {
+        "elo": 1189.0093948668025,
+        "prox_score": 23.321675690538644,
+        "prox_sum": 209.8950812148478,
+        "games_played": 9,
+        "team_id": "109783124183318312",
+        "team_code": "UST",
+        "team_name": "University of St. Trevor",
+        "rank": 149
+    },
+    "Boca Juniors Gaming":
+    {
+        "elo": 1187.7400321520247,
+        "prox_score": 22.68318557390213,
+        "prox_sum": 294.8814124607277,
+        "games_played": 13,
+        "team_id": "107598683861013570",
+        "team_code": "BOC",
+        "team_name": "Boca Juniors Gaming",
+        "rank": 150
+    },
+    "FENNEL":
+    {
+        "elo": 1187.6093144838794,
+        "prox_score": 23.16518067476386,
+        "prox_sum": 1667.893008582998,
+        "games_played": 72,
+        "team_id": "109668849651338559",
+        "team_code": "FL",
+        "team_name": "FENNEL",
+        "rank": 151
+    },
+    "Deep Cross Gaming":
+    {
+        "elo": 1186.645864307206,
+        "prox_score": 23.930080174937384,
+        "prox_sum": 1316.1544096215562,
+        "games_played": 55,
+        "team_id": "107700204561086446",
+        "team_code": "DCG",
+        "team_name": "Deep Cross Gaming",
+        "rank": 152
+    },
+    "Malvinas Rise":
+    {
+        "elo": 1186.2772089008724,
+        "prox_score": 23.633958866523923,
+        "prox_sum": 898.0904369279091,
+        "games_played": 38,
+        "team_id": "107598878262940546",
+        "team_code": "MVG",
+        "team_name": "Malvinas Rise",
+        "rank": 153
+    },
+    "HEET":
+    {
+        "elo": 1185.9182197304417,
+        "prox_score": 21.703272807075404,
+        "prox_sum": 694.5047298264129,
+        "games_played": 32,
+        "team_id": "107179740624168899",
+        "team_code": "HEET",
+        "team_name": "HEET",
+        "rank": 154
+    },
+    "FURIA":
+    {
+        "elo": 1185.3732315262664,
+        "prox_score": 27.065466767091344,
+        "prox_sum": 1245.0114712862019,
+        "games_played": 46,
+        "team_id": "100205576309502431",
+        "team_code": "FUR",
+        "team_name": "FURIA",
+        "rank": 155
+    },
+    "Apex Mission Impossible":
+    {
+        "elo": 1185.2841769324652,
+        "prox_score": 21.825689503925254,
+        "prox_sum": 414.68810057457983,
+        "games_played": 19,
+        "team_id": "110534696811298545",
+        "team_code": "AMI",
+        "team_name": "Apex Mission Impossible",
+        "rank": 156
+    },
+    "FnaticTQ":
+    {
+        "elo": 1185.105290837205,
+        "prox_score": 24.229850246500586,
+        "prox_sum": 969.1940098600235,
+        "games_played": 40,
+        "team_id": "107467794614674479",
+        "team_code": "FNTQ",
+        "team_name": "FnaticTQ",
+        "rank": 157
+    },
+    "Vitality.Bee":
+    {
+        "elo": 1184.9410068982056,
+        "prox_score": 24.767672865976575,
+        "prox_sum": 1089.7776061029692,
+        "games_played": 44,
+        "team_id": "102787200151698443",
+        "team_code": "VITB",
+        "team_name": "Vitality.Bee",
+        "rank": 158
+    },
+    "Nativz":
+    {
+        "elo": 1184.922818502875,
+        "prox_score": 23.10308421930481,
+        "prox_sum": 877.9172003335829,
+        "games_played": 38,
+        "team_id": "107565493716773932",
+        "team_code": "NTZ",
+        "team_name": "Nativz",
+        "rank": 159
+    },
+    "Los Grandes":
+    {
+        "elo": 1183.7575334387407,
+        "prox_score": 25.564019816128205,
+        "prox_sum": 1227.0729511741538,
+        "games_played": 48,
+        "team_id": "109480204628225868",
+        "team_code": "LOS",
+        "team_name": "Los Grandes",
+        "rank": 160
+    },
+    "Team Plink":
+    {
+        "elo": 1183.597002649988,
+        "prox_score": 19.847464449955247,
+        "prox_sum": 39.694928899910494,
+        "games_played": 2,
+        "team_id": "109981655738221109",
+        "team_code": "CAT",
+        "team_name": "Team Plink",
+        "rank": 161
+    },
+    "CGA  Academy":
+    {
+        "elo": 1183.3865911410198,
+        "prox_score": 23.761365304522087,
+        "prox_sum": 546.511402004008,
+        "games_played": 23,
+        "team_id": "106827839261303409",
+        "team_code": "CGA",
+        "team_name": "CGA  Academy",
+        "rank": 162
+    },
+    "Fnatic":
+    {
+        "elo": 1183.2417775761935,
+        "prox_score": 22.340564080224997,
+        "prox_sum": 982.9848195298998,
+        "games_played": 44,
+        "team_id": "98767991866488695",
+        "team_code": "FNC",
+        "team_name": "Fnatic",
+        "rank": 163
+    },
+    "Aegis":
+    {
+        "elo": 1183.086147231632,
+        "prox_score": 23.473988905491648,
+        "prox_sum": 1431.9133232349905,
+        "games_played": 61,
+        "team_id": "109523293035238887",
+        "team_code": "AEG",
+        "team_name": "Aegis",
+        "rank": 164
+    },
+    "Polar Squad":
+    {
+        "elo": 1182.3589371007652,
+        "prox_score": 22.692650583553675,
+        "prox_sum": 431.16036108751985,
+        "games_played": 19,
+        "team_id": "108121051709036068",
+        "team_code": "PLS",
+        "team_name": "Polar Squad",
+        "rank": 165
+    },
+    "Anc Outplayed":
+    {
+        "elo": 1182.301776681084,
+        "prox_score": 21.627223706712503,
+        "prox_sum": 994.8522905087751,
+        "games_played": 46,
+        "team_id": "105537149834356301",
+        "team_code": "OP",
+        "team_name": "Anc Outplayed",
+        "rank": 166
+    },
+    "Teamless Revenge":
+    {
+        "elo": 1182.1234716078943,
+        "prox_score": 23.737680988622817,
+        "prox_sum": 332.3275338407194,
+        "games_played": 14,
+        "team_id": "110534741480867943",
+        "team_code": "TRV",
+        "team_name": "Teamless Revenge",
+        "rank": 167
+    },
+    "Froggy Five":
+    {
+        "elo": 1181.966033219074,
+        "prox_score": 21.77689273038264,
+        "prox_sum": 174.21514184306113,
+        "games_played": 8,
+        "team_id": "110534724851488577",
+        "team_code": "FROG",
+        "team_name": "Froggy Five",
+        "rank": 168
+    },
+    "Team Mayan eSports":
+    {
+        "elo": 1181.5152615357383,
+        "prox_score": 23.13016630563931,
+        "prox_sum": 531.9938250297041,
+        "games_played": 23,
+        "team_id": "107603566520687175",
+        "team_code": "MYN",
+        "team_name": "Team Mayan eSports",
+        "rank": 169
+    },
+    "SINNERS Esports":
+    {
+        "elo": 1181.1970173277584,
+        "prox_score": 22.002297695370427,
+        "prox_sum": 682.0712285564832,
+        "games_played": 31,
+        "team_id": "104710678170825211",
+        "team_code": "SIN",
+        "team_name": "SINNERS Esports",
+        "rank": 170
+    },
+    "INTZ":
+    {
+        "elo": 1180.99813172226,
+        "prox_score": 25.66312882617114,
+        "prox_sum": 1103.514539525359,
+        "games_played": 43,
+        "team_id": "99566408217116828",
+        "team_code": "ITZ",
+        "team_name": "INTZ",
+        "rank": 171
+    },
+    "Papara SuperMassive ":
+    {
+        "elo": 1180.6325509164892,
+        "prox_score": 24.614457698383312,
+        "prox_sum": 1279.9518003159321,
+        "games_played": 52,
+        "team_id": "99566406064558732",
+        "team_code": "SUP",
+        "team_name": "Papara SuperMassive ",
+        "rank": 172
+    },
+    "Liberty Academy":
+    {
+        "elo": 1180.1896117752794,
+        "prox_score": 24.3495103226978,
+        "prox_sum": 949.6309025852141,
+        "games_played": 39,
+        "team_id": "105550005698683818",
+        "team_code": "LBR",
+        "team_name": "Liberty Academy",
+        "rank": 173
+    },
+    "Pentanet.GG":
+    {
+        "elo": 1180.0295331188636,
+        "prox_score": 22.325102944640285,
+        "prox_sum": 692.0781912838488,
+        "games_played": 31,
+        "team_id": "103535282124208038",
+        "team_code": "PGG",
+        "team_name": "Pentanet.GG",
+        "rank": 174
+    },
+    "RED Academy":
+    {
+        "elo": 1179.6203106618002,
+        "prox_score": 24.80831394044648,
+        "prox_sum": 1017.1408715583058,
+        "games_played": 41,
+        "team_id": "105550001032913831",
+        "team_code": "RED",
+        "team_name": "RED Academy",
+        "rank": 175
+    },
+    "ZennIT":
+    {
+        "elo": 1179.577317337655,
+        "prox_score": 23.111942588731118,
+        "prox_sum": 762.6941054281269,
+        "games_played": 33,
+        "team_id": "107128093558481418",
+        "team_code": "ZNT",
+        "team_name": "ZennIT",
+        "rank": 176
+    },
+    "Kelyx's Grandpa Gamers":
+    {
+        "elo": 1179.0356289786807,
+        "prox_score": 21.457854800869534,
+        "prox_sum": 300.40996721217346,
+        "games_played": 14,
+        "team_id": "110534728305628996",
+        "team_code": "OLD",
+        "team_name": "Kelyx's Grandpa Gamers",
+        "rank": 177
+    },
+    "Meta Gaming":
+    {
+        "elo": 1178.4893452217952,
+        "prox_score": 22.856292280087903,
+        "prox_sum": 799.9702298030766,
+        "games_played": 35,
+        "team_id": "107599040773840060",
+        "team_code": "MG",
+        "team_name": "Meta Gaming",
+        "rank": 178
+    },
+    "CCG Esports":
+    {
+        "elo": 1177.3912654777898,
+        "prox_score": 22.82240260384935,
+        "prox_sum": 593.3824677000831,
+        "games_played": 26,
+        "team_id": "109981647134921596",
+        "team_code": "CCG",
+        "team_name": "CCG Esports",
+        "rank": 179
+    },
+    "Eternal Fire":
+    {
+        "elo": 1176.7601034187646,
+        "prox_score": 23.296671963200183,
+        "prox_sum": 512.526783190404,
+        "games_played": 22,
+        "team_id": "110492173877838150",
+        "team_code": "EF",
+        "team_name": "Eternal Fire",
+        "rank": 180
+    },
+    "Mirage":
+    {
+        "elo": 1176.0888350536743,
+        "prox_score": 22.904966534533184,
+        "prox_sum": 114.52483267266592,
+        "games_played": 5,
+        "team_id": "109783136441695429",
+        "team_code": "MRGE",
+        "team_name": "Mirage",
+        "rank": 181
+    },
+    "Newstar":
+    {
+        "elo": 1176.055020744599,
+        "prox_score": 27.65351274014621,
+        "prox_sum": 193.57458918102347,
+        "games_played": 7,
+        "team_id": "107599061926073885",
+        "team_code": "N5R",
+        "team_name": "Newstar",
+        "rank": 182
+    },
+    "CB Gaming":
+    {
+        "elo": 1164.6354441571302,
+        "prox_score": 21.45132906564842,
+        "prox_sum": 257.415948787781,
+        "games_played": 12,
+        "team_id": "110534714934488523",
+        "team_code": "CBG",
+        "team_name": "CB Gaming",
+        "rank": 205
+    },
+    "Maturalni Forsaken":
+    {
+        "elo": 1175.2049530676052,
+        "prox_score": 23.71934084451356,
+        "prox_sum": 1067.3703380031102,
+        "games_played": 45,
+        "team_id": "107416342401528388",
+        "team_code": "MFSK",
+        "team_name": "Maturalni Forsaken",
+        "rank": 184
+    },
+    "Return of the Middlesticks":
+    {
+        "elo": 1174.762748615822,
+        "prox_score": 21.095788553046756,
+        "prox_sum": 147.6705198713273,
+        "games_played": 7,
+        "team_id": "110733889090164854",
+        "team_code": "ROTM",
+        "team_name": "Return of the Middlesticks",
+        "rank": 185
+    },
+    "St. Clair College":
+    {
+        "elo": 1174.3174576916465,
+        "prox_score": 21.181620231703178,
+        "prox_sum": 105.90810115851589,
+        "games_played": 5,
+        "team_id": "108159890692353756",
+        "team_code": "SCC",
+        "team_name": "St. Clair College",
+        "rank": 186
+    },
+    "Young Buffalos":
+    {
+        "elo": 1173.8333040878729,
+        "prox_score": 20.121746826406586,
+        "prox_sum": 100.60873413203294,
+        "games_played": 5,
+        "team_id": "110534751905120040",
+        "team_code": "YB",
+        "team_name": "Young Buffalos",
+        "rank": 187
+    },
+    "LOUD Academy":
+    {
+        "elo": 1173.3769785032227,
+        "prox_score": 25.395794787025974,
+        "prox_sum": 863.4570227588831,
+        "games_played": 34,
+        "team_id": "105549997263803379",
+        "team_code": "LLL",
+        "team_name": "LOUD Academy",
+        "rank": 188
+    },
+    "MAD Lions":
+    {
+        "elo": 1172.908529671191,
+        "prox_score": 21.351072362990447,
+        "prox_sum": 1665.3836443132548,
+        "games_played": 78,
+        "team_id": "103461966965149786",
+        "team_code": "MAD",
+        "team_name": "MAD Lions",
+        "rank": 189
+    },
+    "Crvena Zvezda Esports":
+    {
+        "elo": 1172.875279658377,
+        "prox_score": 24.05682192490943,
+        "prox_sum": 769.8183015971017,
+        "games_played": 32,
+        "team_id": "102787200124959636",
+        "team_code": "CZV",
+        "team_name": "Crvena Zvezda Esports",
+        "rank": 190
+    },
+    "Mezexis Esports":
+    {
+        "elo": 1172.8254295157417,
+        "prox_score": 23.245042275355956,
+        "prox_sum": 302.18554957962743,
+        "games_played": 13,
+        "team_id": "109631610813971977",
+        "team_code": "MZS",
+        "team_name": "Mezexis Esports",
+        "rank": 191
+    },
+    "Miracle":
+    {
+        "elo": 1172.7926551354283,
+        "prox_score": 18.446266282405336,
+        "prox_sum": 239.80146167126935,
+        "games_played": 13,
+        "team_id": "109981678167856017",
+        "team_code": "MRC",
+        "team_name": "Miracle",
+        "rank": 192
+    },
+    "BWE Esports":
+    {
+        "elo": 1172.054447315187,
+        "prox_score": 24.176425751363894,
+        "prox_sum": 773.6456240436446,
+        "games_played": 32,
+        "team_id": "108439036582886702",
+        "team_code": "BWE",
+        "team_name": "BWE Esports",
+        "rank": 193
+    },
+    "NASR ESPORTS":
+    {
+        "elo": 1171.9749476565091,
+        "prox_score": 26.195417230653636,
+        "prox_sum": 1047.8166892261454,
+        "games_played": 40,
+        "team_id": "105536643047197642",
+        "team_code": "NASR",
+        "team_name": "NASR ESPORTS",
+        "rank": 194
+    },
+    "Zenigma":
+    {
+        "elo": 1170.6772146107699,
+        "prox_score": 20.70566502006138,
+        "prox_sum": 269.17364526079797,
+        "games_played": 13,
+        "team_id": "109783164711873455",
+        "team_code": "ZEN",
+        "team_name": "Zenigma",
+        "rank": 195
+    },
+    "Red Eyes Esports":
+    {
+        "elo": 1170.2614508542922,
+        "prox_score": 23.753318737405213,
+        "prox_sum": 451.31305601069903,
+        "games_played": 19,
+        "team_id": "109699038581250169",
+        "team_code": "RDY",
+        "team_name": "Red Eyes Esports",
+        "rank": 196
+    },
+    "Immortals Progressive Challengers":
+    {
+        "elo": 1170.0738379472734,
+        "prox_score": 22.19190793895288,
+        "prox_sum": 798.9086858023037,
+        "games_played": 36,
+        "team_id": "103461966975897718",
+        "team_code": "IMT",
+        "team_name": "Immortals Progressive Challengers",
+        "rank": 197
+    },
+    "Mousesports":
+    {
+        "elo": 1169.0667062187788,
+        "prox_score": 24.93343973562843,
+        "prox_sum": 1196.8051073101647,
+        "games_played": 48,
+        "team_id": "102787200120306562",
+        "team_code": "MOUZ",
+        "team_name": "Mousesports",
+        "rank": 198
+    },
+    "ISU Redbirds":
+    {
+        "elo": 1167.9114917366167,
+        "prox_score": 21.997086011327767,
+        "prox_sum": 87.98834404531107,
+        "games_played": 4,
+        "team_id": "107580506699777259",
+        "team_code": "ISU",
+        "team_name": "ISU Redbirds",
+        "rank": 199
+    },
+    "Spectacled Bears":
+    {
+        "elo": 1167.4572968033551,
+        "prox_score": 23.22378569750638,
+        "prox_sum": 1068.2941420852935,
+        "games_played": 46,
+        "team_id": "107582641798795198",
+        "team_code": "SB",
+        "team_name": "Spectacled Bears",
+        "rank": 200
+    },
+    "Blue Otter":
+    {
+        "elo": 1167.1462343400203,
+        "prox_score": 19.939665957310932,
+        "prox_sum": 79.75866382924373,
+        "games_played": 4,
+        "team_id": "110534712174898632",
+        "team_code": "BOL",
+        "team_name": "Blue Otter",
+        "rank": 201
+    },
+    "Dark Passage":
+    {
+        "elo": 1165.2485883056022,
+        "prox_score": 23.88637981158708,
+        "prox_sum": 883.796053028722,
+        "games_played": 37,
+        "team_id": "99566406065437842",
+        "team_code": "DP",
+        "team_name": "Dark Passage",
+        "rank": 202
+    },
+    "Komodo":
+    {
+        "elo": 1165.2335144778506,
+        "prox_score": 18.704454815758393,
+        "prox_sum": 224.4534577891007,
+        "games_played": 12,
+        "team_id": "110534732558665825",
+        "team_code": "KMD",
+        "team_name": "Komodo",
+        "rank": 203
+    },
+    "INTZ Academy":
+    {
+        "elo": 1164.637860124135,
+        "prox_score": 23.87254378905116,
+        "prox_sum": 1193.627189452558,
+        "games_played": 50,
+        "team_id": "105549993449477104",
+        "team_code": "ITZ",
+        "team_name": "INTZ Academy",
+        "rank": 204
+    },
+    "Fourth Wall":
+    {
+        "elo": 1163.9981775319268,
+        "prox_score": 21.84018289885078,
+        "prox_sum": 305.76256058391095,
+        "games_played": 14,
+        "team_id": "110425157952111645",
+        "team_code": "4W",
+        "team_name": "Fourth Wall",
+        "rank": 206
+    },
+    "Solary":
+    {
+        "elo": 1163.8451794658154,
+        "prox_score": 22.306877728174552,
+        "prox_sum": 869.9682313988076,
+        "games_played": 39,
+        "team_id": "105515345386578249",
+        "team_code": "SLY",
+        "team_name": "Solary",
+        "rank": 207
+    },
+    "Peek Gaming":
+    {
+        "elo": 1163.4503411004562,
+        "prox_score": 23.011157413395456,
+        "prox_sum": 1242.6025003233547,
+        "games_played": 54,
+        "team_id": "107581212180071788",
+        "team_code": "PK",
+        "team_name": "Peek Gaming",
+        "rank": 208
+    },
+    "Team BDS Academy":
+    {
+        "elo": 1162.8638662072892,
+        "prox_score": 22.131635586433795,
+        "prox_sum": 863.133787870918,
+        "games_played": 39,
+        "team_id": "105514907449611976",
+        "team_code": "BDSA",
+        "team_name": "Team BDS Academy",
+        "rank": 209
+    },
+    "FLUXO Academy":
+    {
+        "elo": 1162.460439752843,
+        "prox_score": 23.986604741523145,
+        "prox_sum": 983.450794402449,
+        "games_played": 41,
+        "team_id": "109485342651298305",
+        "team_code": "FX",
+        "team_name": "FLUXO Academy",
+        "rank": 210
+    },
+    "The Kings":
+    {
+        "elo": 1161.7807539961354,
+        "prox_score": 21.789112477558092,
+        "prox_sum": 435.78224955116184,
+        "games_played": 20,
+        "team_id": "107581287168722290",
+        "team_code": "TK",
+        "team_name": "The Kings",
+        "rank": 211
+    },
+    "Janus Esports":
+    {
+        "elo": 1161.6878721984522,
+        "prox_score": 25.93041089938208,
+        "prox_sum": 803.8427378808444,
+        "games_played": 31,
+        "team_id": "107581750701049485",
+        "team_code": "JNS",
+        "team_name": "Janus Esports",
+        "rank": 212
+    },
+    "CLG":
+    {
+        "elo": 1161.668486423678,
+        "prox_score": 24.864205061482632,
+        "prox_sum": 646.4693315985485,
+        "games_played": 26,
+        "team_id": "98926509884398584",
+        "team_code": "CLG",
+        "team_name": "CLG",
+        "rank": 213
+    },
+    "Fox Gaming":
+    {
+        "elo": 1161.5316189697019,
+        "prox_score": 23.90991910232588,
+        "prox_sum": 621.6578966604728,
+        "games_played": 26,
+        "team_id": "109696115986547257",
+        "team_code": "FOX",
+        "team_name": "Fox Gaming",
+        "rank": 214
+    },
+    "Universitario Esports":
+    {
+        "elo": 1161.3139280020005,
+        "prox_score": 24.66539566357069,
+        "prox_sum": 493.3079132714138,
+        "games_played": 20,
+        "team_id": "109698855806033734",
+        "team_code": "UE",
+        "team_name": "Universitario Esports",
+        "rank": 215
+    },
+    "Illuminar Gaming":
+    {
+        "elo": 1161.118408246575,
+        "prox_score": 23.743184987397576,
+        "prox_sum": 973.4705844833006,
+        "games_played": 41,
+        "team_id": "105521408363571548",
+        "team_code": "IHG",
+        "team_name": "Illuminar Gaming",
+        "rank": 216
+    },
+    "CERBERUS ESPORTS":
+    {
+        "elo": 1159.9628390961414,
+        "prox_score": 22.384857271070143,
+        "prox_sum": 1813.1734389566816,
+        "games_played": 81,
+        "team_id": "107251374793416561",
+        "team_code": "CES",
+        "team_name": "CERBERUS ESPORTS",
+        "rank": 217
+    },
+    "White Dragons":
+    {
+        "elo": 1159.6496924717612,
+        "prox_score": 23.052680781797577,
+        "prox_sum": 1429.2662084714498,
+        "games_played": 62,
+        "team_id": "105594135137147298",
+        "team_code": "WD",
+        "team_name": "White Dragons",
+        "rank": 218
+    },
+    "War Legion Esports":
+    {
+        "elo": 1158.8314101483265,
+        "prox_score": 24.441303173156584,
+        "prox_sum": 219.97172855840927,
+        "games_played": 9,
+        "team_id": "109631614501223948",
+        "team_code": "WLE",
+        "team_name": "War Legion Esports",
+        "rank": 219
+    },
+    "Panathinaikos Esports":
+    {
+        "elo": 1158.3423694138348,
+        "prox_score": 21.999005017499005,
+        "prox_sum": 703.9681605599682,
+        "games_played": 32,
+        "team_id": "108078422885368642",
+        "team_code": "PAO",
+        "team_name": "Panathinaikos Esports",
+        "rank": 220
+    },
+    "Conviction":
+    {
+        "elo": 1158.2089076993389,
+        "prox_score": 21.88358718165084,
+        "prox_sum": 196.95228463485753,
+        "games_played": 9,
+        "team_id": "109783170393931575",
+        "team_code": "CNV",
+        "team_name": "Conviction",
+        "rank": 221
+    },
+    "EGN Esports":
+    {
+        "elo": 1158.179992504613,
+        "prox_score": 26.555895897633786,
+        "prox_sum": 743.565085133746,
+        "games_played": 28,
+        "team_id": "103878020539746273",
+        "team_code": "EGN",
+        "team_name": "EGN Esports",
+        "rank": 222
+    },
+    "Odivelas Sports Club":
+    {
+        "elo": 1157.8328014487631,
+        "prox_score": 23.55865296705832,
+        "prox_sum": 800.9942008799828,
+        "games_played": 34,
+        "team_id": "107574959289974368",
+        "team_code": "OSC",
+        "team_name": "Odivelas Sports Club",
+        "rank": 223
+    },
+    "Team Heretics":
+    {
+        "elo": 1156.9557652931396,
+        "prox_score": 24.844950931986833,
+        "prox_sum": 1043.487939143447,
+        "games_played": 42,
+        "team_id": "109637393694097670",
+        "team_code": "TH",
+        "team_name": "Team Heretics",
+        "rank": 224
+    },
+    "SK Gaming":
+    {
+        "elo": 1156.814776606094,
+        "prox_score": 22.722957976558703,
+        "prox_sum": 1090.7019828748178,
+        "games_played": 48,
+        "team_id": "101383793567806688",
+        "team_code": "SK",
+        "team_name": "SK Gaming",
+        "rank": 225
+    },
+    "Axolotl Esports":
+    {
+        "elo": 1156.8093055606469,
+        "prox_score": 21.04060569563047,
+        "prox_sum": 673.2993822601751,
+        "games_played": 32,
+        "team_id": "105537226118106446",
+        "team_code": "AXL",
+        "team_name": "Axolotl Esports",
+        "rank": 226
+    },
+    "Grypciocraft Esports":
+    {
+        "elo": 1156.3673479178271,
+        "prox_score": 21.879449871932287,
+        "prox_sum": 940.8163444930884,
+        "games_played": 43,
+        "team_id": "107599485973747723",
+        "team_code": "GRP",
+        "team_name": "Grypciocraft Esports",
+        "rank": 227
+    },
+    "Keypulse Esports":
+    {
+        "elo": 1156.3071721186682,
+        "prox_score": 21.551922475666778,
+        "prox_sum": 280.1749921836681,
+        "games_played": 13,
+        "team_id": "110425005562048945",
+        "team_code": "KYP",
+        "team_name": "Keypulse Esports",
+        "rank": 228
+    },
+    "paiN Academy":
+    {
+        "elo": 1156.2132537127784,
+        "prox_score": 23.446178469054008,
+        "prox_sum": 890.9547818240524,
+        "games_played": 38,
+        "team_id": "105549998884468136",
+        "team_code": "PNG",
+        "team_name": "paiN Academy",
+        "rank": 229
+    },
+    "Benelux United":
+    {
+        "elo": 1156.1442891483127,
+        "prox_score": 22.391438257810876,
+        "prox_sum": 291.0886973515414,
+        "games_played": 13,
+        "team_id": "109704625422425316",
+        "team_code": "BLX",
+        "team_name": "Benelux United",
+        "rank": 230
+    },
+    "TSM Challengers":
+    {
+        "elo": 1155.154402328797,
+        "prox_score": 21.919978921102707,
+        "prox_sum": 789.1192411596975,
+        "games_played": 36,
+        "team_id": "99566405127798575",
+        "team_code": "TSM",
+        "team_name": "TSM Challengers",
+        "rank": 231
+    },
+    "DFM Academy":
+    {
+        "elo": 1154.1666850638549,
+        "prox_score": 23.972516179052224,
+        "prox_sum": 455.47780740199227,
+        "games_played": 19,
+        "team_id": "106827765448944398",
+        "team_code": "DFM",
+        "team_name": "DFM Academy",
+        "rank": 232
+    },
+    "The Kings Moon":
+    {
+        "elo": 1153.4261728251865,
+        "prox_score": 19.157502470362285,
+        "prox_sum": 249.04753211470972,
+        "games_played": 13,
+        "team_id": "109672446077514083",
+        "team_code": "TKM",
+        "team_name": "The Kings Moon",
+        "rank": 233
+    },
+    "Los Grandes Academy":
+    {
+        "elo": 1153.3229823060092,
+        "prox_score": 25.449309487905925,
+        "prox_sum": 1272.4654743952963,
+        "games_played": 50,
+        "team_id": "109485351596724390",
+        "team_code": "LOS",
+        "team_name": "Los Grandes Academy",
+        "rank": 234
+    },
+    "Ramo Awake Gaming":
+    {
+        "elo": 1152.4808597835515,
+        "prox_score": 23.211622075462525,
+        "prox_sum": 487.44406358471304,
+        "games_played": 21,
+        "team_id": "107603544245460197",
+        "team_code": "AWK",
+        "team_name": "Ramo Awake Gaming",
+        "rank": 235
+    },
+    "webidoo Gaming":
+    {
+        "elo": 1150.896758264456,
+        "prox_score": 24.152565627690727,
+        "prox_sum": 338.13591878767016,
+        "games_played": 14,
+        "team_id": "108448995754333242",
+        "team_code": "WBD",
+        "team_name": "webidoo Gaming",
+        "rank": 236
+    },
+    "Rebirth Esports":
+    {
+        "elo": 1150.0537764441756,
+        "prox_score": 21.579364890714523,
+        "prox_sum": 215.79364890714524,
+        "games_played": 10,
+        "team_id": "107599174108436104",
+        "team_code": "RBT",
+        "team_name": "Rebirth Esports",
+        "rank": 237
+    },
+    "Cyberground Gaming":
+    {
+        "elo": 1149.7686745414971,
+        "prox_score": 21.7340584529436,
+        "prox_sum": 673.7558120412516,
+        "games_played": 31,
+        "team_id": "105536738266035235",
+        "team_code": "CGG",
+        "team_name": "Cyberground Gaming",
+        "rank": 238
+    },
+    "Diamond Doves":
+    {
+        "elo": 1149.2330061332814,
+        "prox_score": 23.519528896768428,
+        "prox_sum": 329.273404554758,
+        "games_played": 14,
+        "team_id": "107582609836036013",
+        "team_code": "DD",
+        "team_name": "Diamond Doves",
+        "rank": 239
+    },
+    "Myth Esports":
+    {
+        "elo": 1148.9212874414015,
+        "prox_score": 21.03126968104745,
+        "prox_sum": 294.4377755346643,
+        "games_played": 14,
+        "team_id": "110424397251619481",
+        "team_code": "MYTH",
+        "team_name": "Myth Esports",
+        "rank": 240
+    },
+    "Spirituals":
+    {
+        "elo": 1148.7267184441478,
+        "prox_score": 22.33318370629503,
+        "prox_sum": 602.9959600699658,
+        "games_played": 27,
+        "team_id": "107603596915629288",
+        "team_code": "STS",
+        "team_name": "Spirituals",
+        "rank": 241
+    },
+    "Barcelona BG":
+    {
+        "elo": 1148.0031259478649,
+        "prox_score": 23.84900330510416,
+        "prox_sum": 381.58405288166654,
+        "games_played": 16,
+        "team_id": "109698026697016325",
+        "team_code": "BBG",
+        "team_name": "Barcelona BG",
+        "rank": 242
+    },
+    "Vanir":
+    {
+        "elo": 1147.1761286750748,
+        "prox_score": 24.35798793851998,
+        "prox_sum": 682.0236622785594,
+        "games_played": 28,
+        "team_id": "107423083507599175",
+        "team_code": "VNR",
+        "team_name": "Vanir",
+        "rank": 243
+    },
+    "Team Vitality":
+    {
+        "elo": 1145.7799551732721,
+        "prox_score": 21.93870970997165,
+        "prox_sum": 943.364517528781,
+        "games_played": 43,
+        "team_id": "99322214695067838",
+        "team_code": "VIT",
+        "team_name": "Team Vitality",
+        "rank": 244
+    },
+    "Gamespace Mediterranean College Esports":
+    {
+        "elo": 1145.473080416259,
+        "prox_score": 22.600860538873484,
+        "prox_sum": 723.2275372439515,
+        "games_played": 32,
+        "team_id": "105521674055625312",
+        "team_code": "GSMC",
+        "team_name": "Gamespace Mediterranean College Esports",
+        "rank": 245
+    },
+    "SAMPI":
+    {
+        "elo": 1143.636139569455,
+        "prox_score": 20.581536651013227,
+        "prox_sum": 535.1199529263439,
+        "games_played": 26,
+        "team_id": "107693836459380354",
+        "team_code": "SMP",
+        "team_name": "SAMPI",
+        "rank": 246
+    },
+    "Team Phantasma":
+    {
+        "elo": 1141.745187680877,
+        "prox_score": 22.91554312202836,
+        "prox_sum": 870.7906386370777,
+        "games_played": 38,
+        "team_id": "105521637552587612",
+        "team_code": "TP",
+        "team_name": "Team Phantasma",
+        "rank": 247
+    },
+    "Antares Esports":
+    {
+        "elo": 1140.4296303699844,
+        "prox_score": 23.59539674504432,
+        "prox_sum": 401.1217446657534,
+        "games_played": 17,
+        "team_id": "108131965235538611",
+        "team_code": "ANT",
+        "team_name": "Antares Esports",
+        "rank": 248
+    },
+    "Wild Panthers Esports":
+    {
+        "elo": 1139.6196392579725,
+        "prox_score": 23.613376887264067,
+        "prox_sum": 637.5611759561298,
+        "games_played": 27,
+        "team_id": "107067065368380132",
+        "team_code": "WPE",
+        "team_name": "Wild Panthers Esports",
+        "rank": 249
+    },
+    "TSM":
+    {
+        "elo": 1138.3755485267313,
+        "prox_score": 23.574043053304965,
+        "prox_sum": 1037.2578943454184,
+        "games_played": 44,
+        "team_id": "98767991860392497",
+        "team_code": "TSM",
+        "team_name": "TSM",
+        "rank": 250
+    },
+    "MAMMOTH":
+    {
+        "elo": 1138.3653938631971,
+        "prox_score": 20.774545299598312,
+        "prox_sum": 664.785449587146,
+        "games_played": 32,
+        "team_id": "101383792887446028",
+        "team_code": "MEC",
+        "team_name": "MAMMOTH",
+        "rank": 251
+    },
+    "Finetwork KOI":
+    {
+        "elo": 1137.4009434788036,
+        "prox_score": 26.487576625052462,
+        "prox_sum": 1191.9409481273608,
+        "games_played": 45,
+        "team_id": "107467827374313054",
+        "team_code": "FNK",
+        "team_name": "Finetwork KOI",
+        "rank": 252
+    },
+    "GameWard":
+    {
+        "elo": 1136.9213584655722,
+        "prox_score": 24.256558631050627,
+        "prox_sum": 897.4926693488732,
+        "games_played": 37,
+        "team_id": "105514967858969605",
+        "team_code": "GW",
+        "team_name": "GameWard",
+        "rank": 253
+    },
+    "Aporia":
+    {
+        "elo": 1136.2244401727837,
+        "prox_score": 20.484279534780878,
+        "prox_sum": 163.87423627824703,
+        "games_played": 8,
+        "team_id": "110534700622694005",
+        "team_code": "APR",
+        "team_name": "Aporia",
+        "rank": 254
+    },
+    "Valiance PRO GAME":
+    {
+        "elo": 1136.1266862787643,
+        "prox_score": 22.009492065112845,
+        "prox_sum": 594.2562857580468,
+        "games_played": 27,
+        "team_id": "106371141659311452",
+        "team_code": "VPG",
+        "team_name": "Valiance PRO GAME",
+        "rank": 255
+    },
+    "Vivo Keyd Stars":
+    {
+        "elo": 1135.4944513571625,
+        "prox_score": 24.015411079308755,
+        "prox_sum": 1080.693498568894,
+        "games_played": 45,
+        "team_id": "99566408219409348",
+        "team_code": "VKS",
+        "team_name": "Vivo Keyd Stars",
+        "rank": 256
+    },
+    "Topo Centras Iron Wolves":
+    {
+        "elo": 1134.5882917090391,
+        "prox_score": 22.07591598223976,
+        "prox_sum": 860.9607233073506,
+        "games_played": 39,
+        "team_id": "104710682193583854",
+        "team_code": "WOLF",
+        "team_name": "Topo Centras Iron Wolves",
+        "rank": 257
+    },
+    "EBRO":
+    {
+        "elo": 1133.938150224112,
+        "prox_score": 24.57898746812186,
+        "prox_sum": 761.9486115117776,
+        "games_played": 31,
+        "team_id": "107598712583969458",
+        "team_code": "EBG",
+        "team_name": "EBRO",
+        "rank": 258
+    },
+    "Varona Esports":
+    {
+        "elo": 1133.7862490968932,
+        "prox_score": 22.53017121074398,
+        "prox_sum": 315.4223969504157,
+        "games_played": 14,
+        "team_id": "107655539755387391",
+        "team_code": "VAE",
+        "team_name": "Varona Esports",
+        "rank": 259
+    },
+    "Globant Emerald Team":
+    {
+        "elo": 1132.739459080584,
+        "prox_score": 24.494711533719094,
+        "prox_sum": 1102.2620190173593,
+        "games_played": 45,
+        "team_id": "106806779752531762",
+        "team_code": "GET",
+        "team_name": "Globant Emerald Team",
+        "rank": 260
+    },
+    "GNG Esports":
+    {
+        "elo": 1131.698020111994,
+        "prox_score": 26.325033396382274,
+        "prox_sum": 737.1009350987036,
+        "games_played": 28,
+        "team_id": "109696047948627764",
+        "team_code": "GNG",
+        "team_name": "GNG Esports",
+        "rank": 261
+    },
+    "Vertex ESC":
+    {
+        "elo": 1131.6703325029714,
+        "prox_score": 20.043006183483595,
+        "prox_sum": 360.7741113027047,
+        "games_played": 18,
+        "team_id": "110383487456480967",
+        "team_code": "VTX",
+        "team_name": "Vertex ESC",
+        "rank": 262
+    },
+    "mCon esports":
+    {
+        "elo": 1130.6446222389768,
+        "prox_score": 22.837863453010137,
+        "prox_sum": 639.4601766842839,
+        "games_played": 28,
+        "team_id": "105520822049210915",
+        "team_code": "MCON",
+        "team_name": "mCon esports",
+        "rank": 263
+    },
+    "Triple Esports":
+    {
+        "elo": 1128.2374705441282,
+        "prox_score": 22.927064209801486,
+        "prox_sum": 733.6660547136476,
+        "games_played": 32,
+        "team_id": "109695924147263860",
+        "team_code": "TE",
+        "team_name": "Triple Esports",
+        "rank": 264
+    },
+    "100 Thieves":
+    {
+        "elo": 1127.1157740003332,
+        "prox_score": 24.464325974020213,
+        "prox_sum": 1247.680624675031,
+        "games_played": 51,
+        "team_id": "99294153828264740",
+        "team_code": "100",
+        "team_name": "100 Thieves",
+        "rank": 265
+    },
+    "Hell Pigs":
+    {
+        "elo": 1126.7919563389369,
+        "prox_score": 23.489637273209592,
+        "prox_sum": 798.6476672891262,
+        "games_played": 34,
+        "team_id": "109692071893352727",
+        "team_code": "HPS",
+        "team_name": "Hell Pigs",
+        "rank": 266
+    },
+    "FURIA Academy":
+    {
+        "elo": 1126.7191740904582,
+        "prox_score": 25.01774797735221,
+        "prox_sum": 1050.745415048793,
+        "games_played": 42,
+        "team_id": "105549991104165282",
+        "team_code": "FUR",
+        "team_name": "FURIA Academy",
+        "rank": 267
+    },
+    "Genbu Gaming":
+    {
+        "elo": 1124.875112755162,
+        "prox_score": 23.45554660885482,
+        "prox_sum": 445.6553855682416,
+        "games_played": 19,
+        "team_id": "109698030312834058",
+        "team_code": "GNGG",
+        "team_name": "Genbu Gaming",
+        "rank": 268
+    },
+    "Tomorrow Esports":
+    {
+        "elo": 1124.7815525079848,
+        "prox_score": 24.57957143933101,
+        "prox_sum": 1081.5011433305644,
+        "games_played": 44,
+        "team_id": "107581296208168309",
+        "team_code": "TMR",
+        "team_name": "Tomorrow Esports",
+        "rank": 269
+    },
+    "BeÅŸiktaÅŸ":
+    {
+        "elo": 1122.5084443082199,
+        "prox_score": 24.23863804052568,
+        "prox_sum": 896.8296074994502,
+        "games_played": 37,
+        "team_id": "103495716886587312",
+        "team_code": "BJK",
+        "team_name": "BeÅŸiktaÅŸ",
+        "rank": 270
+    },
+    "KOI":
+    {
+        "elo": 1122.3989672579246,
+        "prox_score": 22.416591987267367,
+        "prox_sum": 1120.8295993633683,
+        "games_played": 50,
+        "team_id": "101383793574360315",
+        "team_code": "KOI",
+        "team_name": "KOI",
+        "rank": 271
+    },
+    "BRUTE":
+    {
+        "elo": 1120.612623282458,
+        "prox_score": 22.705223144788683,
+        "prox_sum": 999.0298183707021,
+        "games_played": 44,
+        "team_id": "105593182576105603",
+        "team_code": "BRT",
+        "team_name": "BRUTE",
+        "rank": 272
+    },
+    "Vandals Esports":
+    {
+        "elo": 1120.257392347802,
+        "prox_score": 21.37892048126538,
+        "prox_sum": 213.7892048126538,
+        "games_played": 10,
+        "team_id": "107581761958954646",
+        "team_code": "VAN",
+        "team_name": "Vandals Esports",
+        "rank": 273
+    },
+    "ENEMI3S":
+    {
+        "elo": 1120.0776642573521,
+        "prox_score": 19.380051262562922,
+        "prox_sum": 271.3207176758809,
+        "games_played": 14,
+        "team_id": "109749493607708438",
+        "team_code": "NM3",
+        "team_name": "ENEMI3S",
+        "rank": 274
+    },
+    "MAGAZA":
+    {
+        "elo": 1120.0447629660102,
+        "prox_score": 23.328616812505672,
+        "prox_sum": 629.8726539376531,
+        "games_played": 27,
+        "team_id": "109697683685398040",
+        "team_code": "MGZ",
+        "team_name": "MAGAZA",
+        "rank": 275
+    },
+    "Astralis":
+    {
+        "elo": 1119.3441958460883,
+        "prox_score": 21.777549222153873,
+        "prox_sum": 892.8795181083087,
+        "games_played": 41,
+        "team_id": "101383793569248484",
+        "team_code": "AST",
+        "team_name": "Astralis",
+        "rank": 276
+    },
+    "Newell's Esports":
+    {
+        "elo": 1118.2309482019443,
+        "prox_score": 21.871666195018726,
+        "prox_sum": 218.71666195018724,
+        "games_played": 10,
+        "team_id": "109674808371974726",
+        "team_code": "NOB",
+        "team_name": "Newell's Esports",
+        "rank": 277
+    },
+    "Skull Cracker Clan":
+    {
+        "elo": 1117.8908129797564,
+        "prox_score": 20.357501724070687,
+        "prox_sum": 244.29002068884824,
+        "games_played": 12,
+        "team_id": "107582181197106556",
+        "team_code": "SKC",
+        "team_name": "Skull Cracker Clan",
+        "rank": 278
+    },
+    "GALAKTICOS":
+    {
+        "elo": 1117.0248373453273,
+        "prox_score": 24.233386533515684,
+        "prox_sum": 630.0680498714078,
+        "games_played": 26,
+        "team_id": "99566406066182955",
+        "team_code": "GAL",
+        "team_name": "GALAKTICOS",
+        "rank": 279
+    },
+    "GGEsports":
+    {
+        "elo": 1116.8614789023197,
+        "prox_score": 20.526603527871263,
+        "prox_sum": 287.3724493901977,
+        "games_played": 14,
+        "team_id": "105536773074826367",
+        "team_code": "GGE",
+        "team_name": "GGEsports",
+        "rank": 280
+    },
+    "Reven Esports":
+    {
+        "elo": 1116.4216211810624,
+        "prox_score": 20.493375588967066,
+        "prox_sum": 245.92050706760477,
+        "games_played": 12,
+        "team_id": "109631541326560210",
+        "team_code": "RVN",
+        "team_name": "Reven Esports",
+        "rank": 281
+    },
+    "Pentagon Rejects":
+    {
+        "elo": 1115.0653336107914,
+        "prox_score": 23.485224230794493,
+        "prox_sum": 657.5862784622458,
+        "games_played": 28,
+        "team_id": "109671413728531527",
+        "team_code": "PTR",
+        "team_name": "Pentagon Rejects",
+        "rank": 282
+    },
+    "Aguilas Doradas":
+    {
+        "elo": 1114.1827829588678,
+        "prox_score": 20.342686696541165,
+        "prox_sum": 406.8537339308233,
+        "games_played": 20,
+        "team_id": "108319669531442279",
+        "team_code": "AD",
+        "team_name": "Aguilas Doradas",
+        "rank": 283
+    },
+    "AOE Gold":
+    {
+        "elo": 1110.2521531866614,
+        "prox_score": 22.536092991065892,
+        "prox_sum": 1802.8874392852713,
+        "games_played": 80,
+        "team_id": "106857734387052095",
+        "team_code": "AOE",
+        "team_name": "AOE Gold",
+        "rank": 284
+    },
+    "EXEED":
+    {
+        "elo": 1109.5928312561598,
+        "prox_score": 22.743419764655492,
+        "prox_sum": 818.7631115275977,
+        "games_played": 36,
+        "team_id": "109539873500788632",
+        "team_code": "EXD",
+        "team_name": "EXEED",
+        "rank": 285
+    },
+    "BC Academy":
+    {
+        "elo": 1108.7180795707654,
+        "prox_score": 21.758234751129542,
+        "prox_sum": 456.9229297737204,
+        "games_played": 21,
+        "team_id": "106827848618374543",
+        "team_code": "BC",
+        "team_name": "BC Academy",
+        "rank": 286
+    },
+    "Team Secret":
+    {
+        "elo": 1107.9019236637384,
+        "prox_score": 21.988697151695053,
+        "prox_sum": 1429.2653148601785,
+        "games_played": 65,
+        "team_id": "107251295460371069",
+        "team_code": "TS",
+        "team_name": "Team Secret",
+        "rank": 287
+    },
+    "Hell Zerolag Esports":
+    {
+        "elo": 1107.841648416487,
+        "prox_score": 21.893033601005186,
+        "prox_sum": 591.11190722714,
+        "games_played": 27,
+        "team_id": "105521293297166647",
+        "team_code": "HELL",
+        "team_name": "Hell Zerolag Esports",
+        "rank": 288
+    },
+    "UCAM":
+    {
+        "elo": 1106.3584163817675,
+        "prox_score": 24.691522555197015,
+        "prox_sum": 864.2032894318955,
+        "games_played": 35,
+        "team_id": "105532791598779236",
+        "team_code": "UCAM",
+        "team_name": "UCAM",
+        "rank": 289
+    },
+    "DREN Esports":
+    {
+        "elo": 1105.4363670729747,
+        "prox_score": 22.56640699222638,
+        "prox_sum": 609.2929887901123,
+        "games_played": 27,
+        "team_id": "107648168744912288",
+        "team_code": "DREN",
+        "team_name": "DREN Esports",
+        "rank": 290
+    },
+    "Domino Esports":
+    {
+        "elo": 1104.5697111961144,
+        "prox_score": 22.59327388169911,
+        "prox_sum": 655.2049425692742,
+        "games_played": 29,
+        "team_id": "107565448721890834",
+        "team_code": "DMN",
+        "team_name": "Domino Esports",
+        "rank": 291
+    },
+    "5 Ronin":
+    {
+        "elo": 1103.4815262539557,
+        "prox_score": 22.332069196969098,
+        "prox_sum": 312.6489687575674,
+        "games_played": 14,
+        "team_id": "103495716836203404",
+        "team_code": "5R",
+        "team_name": "5 Ronin",
+        "rank": 292
+    },
+    "Burning Core":
+    {
+        "elo": 1101.3683647223875,
+        "prox_score": 21.813598493883994,
+        "prox_sum": 1308.8159096330396,
+        "games_played": 60,
+        "team_id": "101428372598668846",
+        "team_code": "BC",
+        "team_name": "Burning Core",
+        "rank": 293
+    },
+    "EXCEL":
+    {
+        "elo": 1100.453104668787,
+        "prox_score": 23.92915835003792,
+        "prox_sum": 1076.8121257517064,
+        "games_played": 45,
+        "team_id": "101383793572656373",
+        "team_code": "XL",
+        "team_name": "EXCEL",
+        "rank": 294
+    },
+    "GamerLegion":
+    {
+        "elo": 1100.32670909541,
+        "prox_score": 22.67987846648127,
+        "prox_sum": 771.1158678603632,
+        "games_played": 34,
+        "team_id": "103877589042434434",
+        "team_code": "GL",
+        "team_name": "GamerLegion",
+        "rank": 295
+    },
+    "Supernova":
+    {
+        "elo": 1100.0062112912067,
+        "prox_score": 20.975212678987926,
+        "prox_sum": 1342.4136114552273,
+        "games_played": 64,
+        "team_id": "106857761435870473",
+        "team_code": "SN",
+        "team_name": "Supernova",
+        "rank": 296
+    },
+    "Northern Lions Esports":
+    {
+        "elo": 1098.8263270177645,
+        "prox_score": 23.018274077269158,
+        "prox_sum": 644.5116741635364,
+        "games_played": 28,
+        "team_id": "109539675734129088",
+        "team_code": "NLE",
+        "team_name": "Northern Lions Esports",
+        "rank": 297
+    },
+    "Impunity Esports":
+    {
+        "elo": 1098.7766701574124,
+        "prox_score": 21.46075027001369,
+        "prox_sum": 1030.1160129606571,
+        "games_played": 48,
+        "team_id": "106269859169658575",
+        "team_code": "IMP",
+        "team_name": "Impunity Esports",
+        "rank": 298
+    },
+    "Ground Zero":
+    {
+        "elo": 1098.2991271757446,
+        "prox_score": 21.03577685446471,
+        "prox_sum": 504.8586445071531,
+        "games_played": 24,
+        "team_id": "109675490370327425",
+        "team_code": "GZ",
+        "team_name": "Ground Zero",
+        "rank": 299
+    },
+    "Cryptova":
+    {
+        "elo": 1097.4883808929858,
+        "prox_score": 21.38786129744511,
+        "prox_sum": 598.860116328463,
+        "games_played": 28,
+        "team_id": "107179722233063345",
+        "team_code": "OVA",
+        "team_name": "Cryptova",
+        "rank": 300
+    },
+    "E WIE EINFACH E-SPORTS":
+    {
+        "elo": 1095.250836775041,
+        "prox_score": 21.15501514348077,
+        "prox_sum": 761.5805451653077,
+        "games_played": 36,
+        "team_id": "105503948999800557",
+        "team_code": "EWI",
+        "team_name": "E WIE EINFACH E-SPORTS",
+        "rank": 301
+    },
+    "3BL Esports":
+    {
+        "elo": 1094.6551096832914,
+        "prox_score": 25.846820256137025,
+        "prox_sum": 697.8641469156997,
+        "games_played": 27,
+        "team_id": "109696138543579708",
+        "team_code": "3BL",
+        "team_name": "3BL Esports",
+        "rank": 302
+    },
+    "Team Flash":
+    {
+        "elo": 1091.5420999752994,
+        "prox_score": 23.36462760930286,
+        "prox_sum": 1495.336166995383,
+        "games_played": 64,
+        "team_id": "107258254469504696",
+        "team_code": "TF",
+        "team_name": "Team Flash",
+        "rank": 303
+    },
+    "Ankora Gaming":
+    {
+        "elo": 1089.1596906164916,
+        "prox_score": 22.9426532199043,
+        "prox_sum": 619.4516369374161,
+        "games_played": 27,
+        "team_id": "109697689430777005",
+        "team_code": "ANK",
+        "team_name": "Ankora Gaming",
+        "rank": 304
+    },
+    "T1 Esports Academy":
+    {
+        "elo": 1087.8127890107717,
+        "prox_score": 23.66777680296753,
+        "prox_sum": 2414.113233902688,
+        "games_played": 102,
+        "team_id": "105550059790656435",
+        "team_code": "T1",
+        "team_name": "T1 Esports Academy",
+        "rank": 305
+    },
+    "All Knights":
+    {
+        "elo": 1086.0896830909214,
+        "prox_score": 21.864221318608042,
+        "prox_sum": 721.5193035140654,
+        "games_played": 33,
+        "team_id": "101383792559569368",
+        "team_code": "AK",
+        "team_name": "All Knights",
+        "rank": 306
+    },
+    "XtremeDominators":
+    {
+        "elo": 1084.9455560958454,
+        "prox_score": 17.32662061926687,
+        "prox_sum": 242.57268866973615,
+        "games_played": 14,
+        "team_id": "109697686032800938",
+        "team_code": "XD",
+        "team_name": "XtremeDominators",
+        "rank": 307
+    },
+    "Team Fish Taco":
+    {
+        "elo": 1084.5552802707496,
+        "prox_score": 22.21829675950629,
+        "prox_sum": 1466.4075861274152,
+        "games_played": 66,
+        "team_id": "108361575122450254",
+        "team_code": "TACO",
+        "team_name": "Team Fish Taco",
+        "rank": 308
+    },
+    "Aethernum Esports":
+    {
+        "elo": 1084.487640918459,
+        "prox_score": 20.035631430498466,
+        "prox_sum": 320.57010288797545,
+        "games_played": 16,
+        "team_id": "109672618694070633",
+        "team_code": "AET",
+        "team_name": "Aethernum Esports",
+        "rank": 309
+    },
+    "UniQ Esports":
+    {
+        "elo": 1083.3382707490464,
+        "prox_score": 22.741987378304135,
+        "prox_sum": 636.7756465925157,
+        "games_played": 28,
+        "team_id": "108403526900459473",
+        "team_code": "UNIQ",
+        "team_name": "UniQ Esports",
+        "rank": 310
+    },
+    "Team ESCA Gaming":
+    {
+        "elo": 1079.6928595801699,
+        "prox_score": 22.680885101792494,
+        "prox_sum": 816.5118636645298,
+        "games_played": 36,
+        "team_id": "105521412995449549",
+        "team_code": "ESCA",
+        "team_name": "Team ESCA Gaming",
+        "rank": 311
+    },
+    "Eintracht Frankfurt":
+    {
+        "elo": 1077.8062789678959,
+        "prox_score": 26.172343976742223,
+        "prox_sum": 916.0320391859777,
+        "games_played": 35,
+        "team_id": "107456355516438414",
+        "team_code": "SGE",
+        "team_name": "Eintracht Frankfurt",
+        "rank": 312
+    },
+    "AXZ Academy":
+    {
+        "elo": 1075.0392111555145,
+        "prox_score": 19.981265715469117,
+        "prox_sum": 419.6065800248515,
+        "games_played": 21,
+        "team_id": "106827823550343961",
+        "team_code": "AXZ",
+        "team_name": "AXZ Academy",
+        "rank": 313
+    },
+    "Undead BK":
+    {
+        "elo": 1070.0439638329958,
+        "prox_score": 24.141825176924062,
+        "prox_sum": 627.6874546000256,
+        "games_played": 26,
+        "team_id": "104843437139220481",
+        "team_code": "UBK",
+        "team_name": "Undead BK",
+        "rank": 314
+    },
+    "West Point Esports":
+    {
+        "elo": 1058.9106852273403,
+        "prox_score": 22.02255858387899,
+        "prox_sum": 792.8121090196437,
+        "games_played": 36,
+        "team_id": "109692074894483834",
+        "team_code": "WP",
+        "team_name": "West Point Esports",
+        "rank": 315
+    },
+    "Immortals Progressive":
+    {
+        "elo": 1057.7017560616796,
+        "prox_score": 23.349468870074727,
+        "prox_sum": 817.2314104526155,
+        "games_played": 35,
+        "team_id": "98767991930907107",
+        "team_code": "IMT",
+        "team_name": "Immortals Progressive",
+        "rank": 316
+    },
+    "Dignitas":
+    {
+        "elo": 1056.96101748972,
+        "prox_score": 23.9493929991324,
+        "prox_sum": 981.9251129644283,
+        "games_played": 41,
+        "team_id": "98926509883054987",
+        "team_code": "DIG",
+        "team_name": "Dignitas",
+        "rank": 317
+    },
+    "Kanga Esports":
+    {
+        "elo": 1055.4663900684484,
+        "prox_score": 19.39693354548069,
+        "prox_sum": 523.7172057279786,
+        "games_played": 27,
+        "team_id": "107437032053655867",
+        "team_code": "KNG",
+        "team_name": "Kanga Esports",
+        "rank": 318
+    },
+    "Liiv SANDBOX":
+    {
+        "elo": 1053.0169435428468,
+        "prox_score": 22.624454141205558,
+        "prox_sum": 2013.5764185672945,
+        "games_played": 89,
+        "team_id": "100725845022060229",
+        "team_code": "LSB",
+        "team_name": "Liiv SANDBOX",
+        "rank": 319
+    },
+    "IZIDREAM":
+    {
+        "elo": 1051.426628733985,
+        "prox_score": 22.457937216815065,
+        "prox_sum": 808.4857398053423,
+        "games_played": 36,
+        "team_id": "105515109012592449",
+        "team_code": "IZI",
+        "team_name": "IZIDREAM",
+        "rank": 320
+    },
+    "Crest Gaming Act":
+    {
+        "elo": 1050.903003621884,
+        "prox_score": 22.257077191095124,
+        "prox_sum": 1135.1109367458514,
+        "games_played": 51,
+        "team_id": "101428372603715124",
+        "team_code": "CGA",
+        "team_name": "Crest Gaming Act",
+        "rank": 321
+    },
+    "Evil Geniuses Challengers":
+    {
+        "elo": 1047.526588923697,
+        "prox_score": 21.402451812470566,
+        "prox_sum": 1883.41575949741,
+        "games_played": 88,
+        "team_id": "103461966971048042",
+        "team_code": "EG",
+        "team_name": "Evil Geniuses Challengers",
+        "rank": 322
+    },
+    "Inside Games":
+    {
+        "elo": 1046.924856560855,
+        "prox_score": 21.986576295654462,
+        "prox_sum": 593.6375599826705,
+        "games_played": 27,
+        "team_id": "105593161016793151",
+        "team_code": "ING",
+        "team_name": "Inside Games",
+        "rank": 323
+    },
+    "Team Aze":
+    {
+        "elo": 1046.1446338128724,
+        "prox_score": 24.251899542471296,
+        "prox_sum": 751.8088858166102,
+        "games_played": 31,
+        "team_id": "106806773698472633",
+        "team_code": "AZE",
+        "team_name": "Team Aze",
+        "rank": 324
+    },
+    "Osaka":
+    {
+        "elo": 1041.5599036051524,
+        "prox_score": 23.98649960659655,
+        "prox_sum": 887.5004854440723,
+        "games_played": 37,
+        "team_id": "108319257932089006",
+        "team_code": "OSK",
+        "team_name": "Osaka",
+        "rank": 325
+    },
+    "KaBuM! Esports":
+    {
+        "elo": 1038.253457154727,
+        "prox_score": 25.612413742675706,
+        "prox_sum": 922.0468947363254,
+        "games_played": 36,
+        "team_id": "99566408221114231",
+        "team_code": "KBM",
+        "team_name": "KaBuM! Esports",
+        "rank": 326
+    },
+    "AXIZ":
+    {
+        "elo": 1037.144745151055,
+        "prox_score": 23.037719789563152,
+        "prox_sum": 1474.4140665320417,
+        "games_played": 64,
+        "team_id": "101428372607057464",
+        "team_code": "AXZ",
+        "team_name": "AXIZ",
+        "rank": 327
+    },
+    "LeviatÃ¡n Esports":
+    {
+        "elo": 1033.9098079502755,
+        "prox_score": 22.72039426117927,
+        "prox_sum": 727.0526163577366,
+        "games_played": 32,
+        "team_id": "107598699275015260",
+        "team_code": "LEV",
+        "team_name": "LeviatÃ¡n Esports",
+        "rank": 328
+    },
+    "Liberty":
+    {
+        "elo": 1022.393915516388,
+        "prox_score": 24.54151851960302,
+        "prox_sum": 883.4946667057087,
+        "games_played": 36,
+        "team_id": "99566408222831088",
+        "team_code": "LBR",
+        "team_name": "Liberty",
+        "rank": 329
+    },
+    "Komil&Friends":
+    {
+        "elo": 1018.9844038485514,
+        "prox_score": 22.882315963610417,
+        "prox_sum": 823.763374689975,
+        "games_played": 36,
+        "team_id": "105521419784127190",
+        "team_code": "KNF",
+        "team_name": "Komil&Friends",
+        "rank": 330
+    },
+    "Boavista F.C":
+    {
+        "elo": 1016.5623065600984,
+        "prox_score": 22.6175639808603,
+        "prox_sum": 633.2917914640884,
+        "games_played": 28,
+        "team_id": "105594163014588871",
+        "team_code": "BFC",
+        "team_name": "Boavista F.C",
+        "rank": 331
+    },
+    "NNO Prime":
+    {
+        "elo": 1008.4746817658703,
+        "prox_score": 22.229793909013537,
+        "prox_sum": 800.2725807244873,
+        "games_played": 36,
+        "team_id": "107456352597333899",
+        "team_code": "NNO",
+        "team_name": "NNO Prime",
+        "rank": 332
+    },
+    "Guasones":
+    {
+        "elo": 1007.8849284370849,
+        "prox_score": 23.56441538855057,
+        "prox_sum": 848.3189539878206,
+        "games_played": 36,
+        "team_id": "107564135791716115",
+        "team_code": "GSNS",
+        "team_name": "Guasones",
+        "rank": 333
+    },
+    "FLY FAM":
+    {
+        "elo": 997.2427984463623,
+        "prox_score": 21.46778390819987,
+        "prox_sum": 751.3724367869954,
+        "games_played": 35,
+        "team_id": "109671193729027761",
+        "team_code": "FLYF",
+        "team_name": "FLY FAM",
+        "rank": 334
+    },
+    "Team Liquid Honda First":
+    {
+        "elo": 995.0543795146764,
+        "prox_score": 21.351578259565414,
+        "prox_sum": 896.7662869017474,
+        "games_played": 42,
+        "team_id": "109671201259007744",
+        "team_code": "TLF",
+        "team_name": "Team Liquid Honda First",
+        "rank": 335
+    },
+    "Gen.G Global Academy":
+    {
+        "elo": 993.8462773613667,
+        "prox_score": 21.727433777978053,
+        "prox_sum": 1933.7416062400466,
+        "games_played": 89,
+        "team_id": "105550042327365041",
+        "team_code": "GEN",
+        "team_name": "Gen.G Global Academy",
+        "rank": 336
+    },
+    "Dewish Team":
+    {
+        "elo": 976.6397673342824,
+        "prox_score": 21.766883311687568,
+        "prox_sum": 761.8409159090648,
+        "games_played": 35,
+        "team_id": "108517492697602721",
+        "team_code": "DWT",
+        "team_name": "Dewish Team",
+        "rank": 337
+    },
+    "Kwangdong Freecs":
+    {
+        "elo": 972.8440776227744,
+        "prox_score": 21.288803302565576,
+        "prox_sum": 1724.3930675078116,
+        "games_played": 81,
+        "team_id": "99566404581868574",
+        "team_code": "KDF",
+        "team_name": "Kwangdong Freecs",
+        "rank": 338
+    },
+    "BRO Challengers":
+    {
+        "elo": 963.077670821517,
+        "prox_score": 23.427264126338304,
+        "prox_sum": 1897.6083942334026,
+        "games_played": 81,
+        "team_id": "105550036134585264",
+        "team_code": "BRO",
+        "team_name": "BRO Challengers",
+        "rank": 339
+    },
+    "Liiv SANDBOX Youth":
+    {
+        "elo": 947.5720288223908,
+        "prox_score": 23.6175562981229,
+        "prox_sum": 1983.8747290423235,
+        "games_played": 84,
+        "team_id": "105550051809743868",
+        "team_code": "LSB",
+        "team_name": "Liiv SANDBOX Youth",
+        "rank": 340
+    },
+    "The Last Dance":
+    {
+        "elo": 925.6330546449963,
+        "prox_score": 19.098106858712892,
+        "prox_sum": 744.8261674898029,
+        "games_played": 39,
+        "team_id": "108361563004344389",
+        "team_code": "LAST",
+        "team_name": "The Last Dance",
+        "rank": 341
+    },
+    "OKSavingsBank BRION":
+    {
+        "elo": 920.3463792434566,
+        "prox_score": 22.329749247908808,
+        "prox_sum": 1987.3476830638838,
+        "games_played": 89,
+        "team_id": "105505619546859895",
+        "team_code": "BRO",
+        "team_name": "OKSavingsBank BRION",
+        "rank": 342
+    },
+    "MGN Box Esports":
+    {
+        "elo": 906.702972531721,
+        "prox_score": 20.97423175926679,
+        "prox_sum": 1216.5054420374738,
+        "games_played": 58,
+        "team_id": "109828279319224248",
+        "team_code": "MBE",
+        "team_name": "MGN Box Esports",
+        "rank": 343
+    },
+    "DRX":
+    {
+        "elo": 905.5941580437594,
+        "prox_score": 21.61645607338219,
+        "prox_sum": 1945.481046604397,
+        "games_played": 90,
+        "team_id": "99566404585387054",
+        "team_code": "DRX",
+        "team_name": "DRX",
+        "rank": 344
+    },
+    "KDF Challengers":
+    {
+        "elo": 882.5061169756691,
+        "prox_score": 22.270767075757004,
+        "prox_sum": 1870.7444343635882,
+        "games_played": 84,
+        "team_id": "105550024238752685",
+        "team_code": "KDF",
+        "team_name": "KDF Challengers",
+        "rank": 345
+    },
+    "NongShim REDFORCE":
+    {
+        "elo": 862.3538489716042,
+        "prox_score": 21.093413937497147,
+        "prox_sum": 1792.9401846872574,
+        "games_played": 85,
+        "team_id": "102747101565183056",
+        "team_code": "NS",
+        "team_name": "NongShim REDFORCE",
+        "rank": 346
+    },
+    "V3 Esports":
+    {
+        "elo": 859.9669185274066,
+        "prox_score": 20.237265965155014,
+        "prox_sum": 971.3887663274406,
+        "games_played": 48,
+        "team_id": "101428372602011186",
+        "team_code": "V3",
+        "team_name": "V3 Esports",
+        "rank": 347
+    }
+}

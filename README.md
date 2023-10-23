@@ -8,6 +8,9 @@
 
 ### Research:
 - Calculating ELO: https://leagueoflegends.fandom.com/wiki/Elo_rating_system#Calculating_Elo
+- Getting Proximity: https://lolesports.com/article/dev-diary-changes-to-proximity/bltc57ec217dbf2a162
+  - https://www.doranslab.gg/articles/location-based-champ-metrics.html
+
 - FIFA: https://digitalhub.fifa.com/m/f99da4f73212220/original/edbm045h0udbwkqew35a-pdf.pdf
 - NCAA Basketball Ranking Formula: https://towardsdatascience.com/college-basketballs-net-rankings-explained-25faa0ce71ed
 
@@ -17,18 +20,6 @@
 
 #### External Data:
 - https://oracleselixir.com/stats/teams/byTournament
-
---------------
-
-# TODO
-
-1. Connect python script to S3 bucket
-2. EC2 run calculations and place in csv into S3
-3. Combine calculation files and end game data
-4. Run ML on data to find feature weights
-5. Put into ELO formula (next test formula for underdog win)
-6. Write lambda to calculate ELO based on teams
-7. Connect with API gateway
 
 
 --------------
@@ -43,12 +34,11 @@
 
 --------------
 # Formula
-
+Example is at the bottom of this README
 
 Rating (new) = Rating (old) + K * (GameResult - Expected * DiffWinPredictRatio)
 
 Expected = 1 / (1 + 10 ^ ([ProxSumA - ProxSumB] / 400) )
-
 
 DiffWinPredictRatio = Difference in Pythagorean Expectation of each team in gold 
 ```
@@ -59,15 +49,16 @@ actualgoldSpent^x + sumtotalgold^x
 ```
 
 
+## Research
 
-## ELO
+### ELO
 Rating (new) = Rating (old) + K * (GameResult - Expected)
 
 Expected = 1 / (1 + 10 ^ ([TeamBRating - TeamARating] / 400) )
 
 K = efficiency differential
 
-## KenPom (Basketball predictive)
+### KenPom (Basketball predictive)
 Pythagorean Expectation
 - https://en.wikipedia.org/wiki/Pythagorean_expectation
 
@@ -92,12 +83,16 @@ Actual Gold Spent = goldspent - (passive gold)
 ```
 
 
-## WinPredict ratio = 
+### WinPredict ratio = 
 ```
        actualgoldSpent^x 
 --------------------------------
 actualgoldSpent^x + sumtotalgold^x
 ```
+x = 1.83 
+
+Exponent value 1.83 taken from baseball: https://en.wikipedia.org/wiki/Pythagorean_expectation
+
 
 - TL = 26650^2 / (26650^2 + 89229^2) = 0.08189800214
 - DIG = 21157^2 / (21157^2 + 89229^2) = 0.05322815987
@@ -123,26 +118,38 @@ Proximity data
 |     |               | 
 ```
 
+### Glicko Rating
+https://en.wikipedia.org/wiki/Glicko_rating_system
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+## Example using the data from above
+
 Rating (new) = Rating (old) + K * (GameResult - (Expected + DiffWinPredictRatio))
+
+K = 15 (based on https://leagueoflegends.fandom.com/wiki/Elo_rating_system)
 
 Expected = 1 / (1 + 10 ^ ([ProxSumA - ProxSumB] / 400) )
 
 DiffWinPredictRatio = Difference in Pythagorean Expectation of each team in gold 
 
+--------
 
-Expect = 1 / (1 + 10 ^ ((17.141955 - 13.10038) / 400))
-  - 0.49418396836
-DiffWinPredictRatio = 0.09873115791991857 - 0.06650851712236172
-  - 0.03222264079
+Expect = 1 / (1 + 10 ^ ((17.141955 - 13.10038) / 400)) = **0.49418396836**
+
+DiffWinPredictRatio = 0.09873115791991857 - 0.06650851712236172 = **0.03222264079**
+- TL = 26650^1.83  / (26650^1.83 + 89229^1.83) = 0.09873115791991857
+- DIG = 21157^1.83 / (21157^1.83 + 89229^1.83) = 0.06650851712236172
+
 Rating: 1200 + 15 * (1 - (0.49418396836 + 0.03222264079))
 
-TL = 1207.10390086
-DIG = 1192.10390086
+- **TL = 1207.10390086**
+- **DIG = 1192.10390086**
 
-Proximity scores are running averages
+Proximity scores are running averages:
+- TeamA_game1 proximity_sum = 10
+- TeamA_game1 proximity_score = 10
+- TeamA_game2 proximity_sum = 6
+- TeamA_game2 proximity_score = **8**
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -172,24 +179,4 @@ Proximity scores are running averages
 
 
 
-## Glicko Rating
-https://en.wikipedia.org/wiki/Glicko_rating_system
 
-
--------------------
-
-#### Sequencing
-1. Split game df into 5min intervals
-2. Map eventType into sequences at the team level
-  - Ex: ward_placed = "A", ocean_drag = "B", etc.
-  - Output = win_seq_1-5 = "AABC", win_seq_5-10 = "CCDDE", lose_seq_1-5 = "ABCD"
-
-
-#### Proximity
-- https://lolesports.com/article/dev-diary-changes-to-proximity/bltc57ec217dbf2a162
-  - 2000 units
-
-1. Split game df into 5min intervals
-2. ProximityArea = Area of Circle with radius 1000
-3. Using position data of 5 players, count # of triangles with area < ProximityArea
-  - Output = win_prox_1-5 = 3, win_prox_5-10 = 2

@@ -1,39 +1,36 @@
 {
-    "resource": "/tournament_rankings/{tournament_id+}",
-    "path": "/tournament_rankings/lol_tournament_test",
+    "resource": "/team_rankings",
+    "path": "/team_rankings",
     "httpMethod": "GET",
     "headers": null,
     "multiValueHeaders": null,
     "queryStringParameters":
     {
-        "stage": "round_1"
+        "team_ids": "98767991853197861"
     },
     "multiValueQueryStringParameters":
     {
-        "stage":
+        "team_ids":
         [
-            "round_1"
+            "98926509885559666,98767991877340524,98767991892579754,98767991853197"
         ]
     },
-    "pathParameters":
-    {
-        "tournament_id": "105873410870441926"
-    },
+    "pathParameters": null,
     "stageVariables": null,
     "requestContext":
     {
-        "resourceId": "l0rczj",
-        "resourcePath": "/tournament_rankings/{tournament_id+}",
+        "resourceId": "v54uxc",
+        "resourcePath": "/team_rankings",
         "httpMethod": "GET",
-        "extendedRequestId": "NKxSdEJNvHcFc0Q=",
-        "requestTime": "21/Oct/2023:20:06:26 +0000",
-        "path": "/tournament_rankings/{tournament_id+}",
+        "extendedRequestId": "NO9Y6Fk4vHcF6RA=",
+        "requestTime": "23/Oct/2023:02:36:40 +0000",
+        "path": "/team_rankings",
         "accountId": "356161843961",
         "protocol": "HTTP/1.1",
         "stage": "test-invoke-stage",
         "domainPrefix": "testPrefix",
-        "requestTimeEpoch": 1697918786687,
-        "requestId": "ebcee54e-7937-4b37-944d-ab9a27ba66b3",
+        "requestTimeEpoch": 1698028600748,
+        "requestId": "862ae5df-bdce-4526-9c5b-7970b87f092d",
         "identity":
         {
             "cognitoIdentityPoolId": null,
@@ -47,7 +44,7 @@
             "accountId": "356161843961",
             "caller": "356161843961",
             "sourceIp": "test-invoke-source-ip",
-            "accessKey": "ASIAVF3HGOL4W65R6UDR",
+            "accessKey": "ASIAVF3HGOL4VNKT6A6T",
             "cognitoAuthenticationProvider": null,
             "user": "356161843961"
         },

@@ -248,6 +248,27 @@ def get_esl_games_from_platform_ids(platform_game_ids):
   return esl_game_ids
 
 
+# Get top x teams globally
+def handler_global_rankings():
+
+  # Keep only 2023 data
+  current_overview = overview_data[overview_data["year"] == 2023]
+
+  platform_game_ids = list(current_overview["gameid"].unique())
+
+  game_ids = list(map(lambda gameid: platformGameIdMappings[gameid.replace("_", ":")]["esportsGameId"], platform_game_ids))
+
+  team_ids = current_overview["teamid"].unique()
+
+  team_dict = get_ratings(team_ids, game_ids)
+
+  ratings_dict = add_team_metadata(team_dict)
+  print(ratings_dict)
+
+  with open('global_ranks.json', 'w') as f:
+    json.dump(ratings_dict, f)
+
+
 
 '''
 Prepare API response structure
@@ -312,7 +333,13 @@ def get_ratings(initial_team_ids, esports_game_ids):
   # init team dict
   team_dict = dict()
 
+  count = 0
+  total = len(esports_game_ids)
+
   for esports_game_id in esports_game_ids:
+    count += 1
+    if count % 10 == 0:
+      print(f"Processed Games: {count} / {total}")
 
     # skip if game missing
     if esports_game_id not in esportsGameIdMappings.keys():
@@ -327,6 +354,7 @@ def get_ratings(initial_team_ids, esports_game_ids):
       continue
 
     game_df = overview_data[overview_data["gameid"] == game_id]
+    game_df = game_df.drop_duplicates()
 
     # Teams for game
     teamA_id = game_map['teamMapping'][BLUE_SIDE]
@@ -425,8 +453,10 @@ if __name__ == "__main__":
   # MSI 2021
   # handler_tournament_stage("105873410870441926", "round_1")
 
-  team_rankings = handler_team_rankings(["109631326144414089", "109631541326560210"])
-  print(f"[INFO] Team Rankings: {team_rankings}")
+  #team_rankings = handler_team_rankings(["109631326144414089", "109631541326560210"])
+  #print(f"[INFO] Team Rankings: {team_rankings}")
+
+  handler_global_rankings()
 
   # Team liquid vs digitas example
   #get_ratings(["98926509885559666", "98926509883054987"], ["109517090067719793"])

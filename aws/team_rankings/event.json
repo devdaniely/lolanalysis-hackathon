@@ -1,0 +1,59 @@
+{
+    "resource": "/team_rankings",
+    "path": "/team_rankings",
+    "httpMethod": "GET",
+    "headers": null,
+    "multiValueHeaders": null,
+    "queryStringParameters":
+    {
+        "team_ids": "98767991853197861"
+    },
+    "multiValueQueryStringParameters":
+    {
+        "team_ids":
+        [
+            "98926509885559666",
+            "98767991877340524",
+            "98767991892579754",
+            "98767991853197861"
+        ]
+    },
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext":
+    {
+        "resourceId": "v54uxc",
+        "resourcePath": "/team_rankings",
+        "httpMethod": "GET",
+        "extendedRequestId": "NO9Y6Fk4vHcF6RA=",
+        "requestTime": "23/Oct/2023:02:36:40 +0000",
+        "path": "/team_rankings",
+        "accountId": "356161843961",
+        "protocol": "HTTP/1.1",
+        "stage": "test-invoke-stage",
+        "domainPrefix": "testPrefix",
+        "requestTimeEpoch": 1698028600748,
+        "requestId": "862ae5df-bdce-4526-9c5b-7970b87f092d",
+        "identity":
+        {
+            "cognitoIdentityPoolId": null,
+            "cognitoIdentityId": null,
+            "apiKey": "test-invoke-api-key",
+            "principalOrgId": null,
+            "cognitoAuthenticationType": null,
+            "userArn": "arn:aws:iam::356161843961:root",
+            "apiKeyId": "test-invoke-api-key-id",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+            "accountId": "356161843961",
+            "caller": "356161843961",
+            "sourceIp": "test-invoke-source-ip",
+            "accessKey": "ASIAVF3HGOL4VNKT6A6T",
+            "cognitoAuthenticationProvider": null,
+            "user": "356161843961"
+        },
+        "domainName": "testPrefix.testDomainName",
+        "apiId": "mqb2k0rcn5"
+    },
+    "body": null,
+    "isBase64Encoded": false
+}

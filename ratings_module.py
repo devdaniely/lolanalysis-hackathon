@@ -25,7 +25,7 @@ team_mappings = {
   team_data["team_id"]: team_data for team_data in teams_data
 }
 
-overview_data = pd.read_csv("data/all_data.csv", engine="pyarrow")
+overview_data = pd.read_csv("data/all_data.csv", low_memory=False)
 BLUE_SIDE = "100"
 RED_SIDE = "200"
 BLUE_SIDE_INT = 100
@@ -163,11 +163,18 @@ def handler_tournament_stage(tournament_id, stage):
   else:
     tournaments_data = tournaments_data[0]
 
+  print("----- Getting team_ids")
   team_ids = get_tournament_team_ids(tournaments_data, stage)
+  print(team_ids)
 
+  print("----- Get ratings")
   team_dict = get_ratings_6months_prior(tournaments_data, team_ids)
 
-  return add_team_metadata(team_dict)
+  print("----- Adding metadata")
+  result = add_team_metadata(team_dict)
+  print(result)
+
+  return result
 
 
 '''
@@ -233,9 +240,12 @@ def get_ratings_6months_prior(tournaments_data, team_ids):
   data_end = datetime.strptime(tournament_startDate, "%Y-%m-%d")
   data_start = data_end - timedelta(days=180)
 
+  # Convert to date format
+  overview_data['date'] = pd.to_datetime(overview_data['date'], format="mixed")
+  
   # greater than the start date and smaller than the end date
-  overview_data['date'] = pd.to_datetime(overview_data['date'])
   mask = (overview_data['date'] >= data_start) & (overview_data['date'] < data_end)
+  #trim_data = overview_data[(overview_data['date'] >= data_start) & (overview_data['date'] < data_end)]
   trim_overview_data = overview_data.loc[mask]
 
   team_dict = dict()
@@ -275,7 +285,7 @@ def get_ratings_6months_prior(tournaments_data, team_ids):
 
 
 
-
+#if __name__ == "__main__":
 #get_games_tournament_stage("105873410870441926", "round_1")
 #get_games_tournament_stage("105873410870441926", None)
 

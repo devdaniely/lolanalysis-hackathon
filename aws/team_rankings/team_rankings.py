@@ -1,6 +1,5 @@
 import json
 import traceback
-from urllib.parse import urlparse
 import ratings_module as module
 
 '''
@@ -43,39 +42,44 @@ def response_proxy(data):
   '''
   response = {}
   response["isBase64Encoded"] = False
-  response["statusCode"] = data["statusCode"]
+  response["statusCode"] = 200
   response["headers"] = {}
-  if "headers" in data:
-    response["headers"] = data["headers"]
-  response["body"] = json.dumps(data["body"])
+  response["body"] = json.dumps(data)
   return response
 
 
 def response_no_team_ids():
-  response = {}
+  response = response_proxy(None)
   response["body"] = {
-    "message": "No team ids provided!"
+    "message": "No team ids!"
   }
   return response
 
-# Local Testing: python-lambda-local -f handler -t 5 team_rankings/team_rankings.py team_rankings/team_event.json
+# Local Testing: python-lambda-local -f handler -t 5 team_rankings.py event.json
+# API query must look like team_ids=98926509885559666&team_ids=98767991877340524&team_ids=98767991892579754&team_ids=98767991853197861
 def handler(event, context):
-  response = {}
   print("REQUEST: ------------------------------")
   print(event)
+  response = response_proxy(None)
 
   try:
+
+    if "team_ids" not in event['multiValueQueryStringParameters']:
+      response = response_no_team_ids()
+      return response
+
     # Get event tournament id and stage
     team_ids = event['multiValueQueryStringParameters']['team_ids']
 
     if len(team_ids) == 0:
       response = response_no_team_ids()
-      response["statusCode"] = 200
       return response
 
     # Get rating info
     ratings = module.handler_team_rankings(team_ids)
-    response["body"] = list(ratings.values())
+
+
+    response = response_proxy(list(ratings.values()))
 
   except Exception as e:
     traceback.print_exc()
