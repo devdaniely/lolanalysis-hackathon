@@ -1,6 +1,7 @@
 import json
 import traceback
 import ratings_module as module
+from urllib.parse import urlparse, parse_qs
 
 '''
 Python 3 Boilerplate for AWS Lambda Proxy Integration
@@ -65,12 +66,29 @@ def handler(event, context):
 
   try:
 
-    if "team_ids" not in event['multiValueQueryStringParameters']:
+    # Lambda called directly
+    if "multiValueQueryStringParameters" not in event:
+
+      if "referer" in event["headers"]:
+        url = event["headers"]["referer"]
+        # Parse the URL
+        parsed_url = urlparse(url)
+
+        # Extract the query parameters
+        query_params = parse_qs(parsed_url.query)
+      else:
+        query_params = event["queryStringParameters"]
+
+      team_ids = query_params["team_ids"].split(",")
+
+    elif "team_ids" not in event['multiValueQueryStringParameters']:
       response = response_no_team_ids()
       return response
 
-    # Get event tournament id and stage
-    team_ids = event['multiValueQueryStringParameters']['team_ids']
+    else:
+      # Get event tournament id and stage
+      team_ids = event['multiValueQueryStringParameters']['team_ids']
+
 
     if len(team_ids) == 1:
       team_ids = team_ids[0].split(",")

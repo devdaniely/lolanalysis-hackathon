@@ -1,6 +1,6 @@
 import json
 import traceback
-from urllib.parse import urlparse
+from urllib.parse import urlparse, parse_qs
 import ratings_module as module
 
 '''
@@ -63,15 +63,35 @@ def handler(event, context):
   print(event)
 
   try:
-    # Get event tournament id and stage
-    tournament_id = event["pathParameters"]["tournament_id"]
-    stage = None
 
-    if "stage" not in event["queryStringParameters"]:
-      response = response_no_stage()
-      return response
+    if "pathParameters" not in event.keys():
+      if "referer" in event["headers"]:
+        url = event["headers"]["referer"]
+        # Parse the URL
+        parsed_url = urlparse(url)
 
-    stage = event["queryStringParameters"]["stage"]
+        tournament_id = parsed_url.path.split("/")[-1]
+        # Extract the query parameters
+        stage = parsed_url.query.replace("stage=","")
+        if stage == "":
+          stage = None
+
+      else:
+        tournament_id = event["rawPath"].split("/")[-1]
+        if "queryStringParameters" in event.keys() and "stage" in event["queryStringParameters"]:
+          stage = event["queryStringParameters"]["stage"]
+        else:
+          stage = None
+
+
+    else:
+      # Get event tournament id and stage
+      tournament_id = event["pathParameters"]["tournament_id"]
+      if "stage" in event["queryStringParameters"]:
+        stage = event["queryStringParameters"]["stage"]
+      else:
+        stage = None
+
 
     # Get rating info
     ratings = module.handler_tournament_stage(tournament_id, stage)

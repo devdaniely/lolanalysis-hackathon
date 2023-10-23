@@ -11,9 +11,10 @@
 - https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/tournament_rankings/105873410870441926?stage=round_1
 
 ### `/team_rankings?team_ids={team_ids_array}`
-- https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/team_rankings?team_ids=98926509885559666,98767991877340524,98767991892579754,98767991853197861
-- https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/team_rankings?team_ids=98926509885559666&team_ids=98767991877340524
-
+- API Gateway
+  - https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/team_rankings?team_ids=98926509885559666&team_ids=98767991877340524
+- Lambda Invoke
+  - https://cg25zzqwk2unw5xq3c67riazz40ztpmt.lambda-url.us-west-2.on.aws/team_rankings?team_ids=98926509885559666,98767991877340524,98767991892579754,98767991853197861
 
 
 

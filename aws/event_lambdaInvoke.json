@@ -1,0 +1,48 @@
+{
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/favicon.ico",
+    "rawQueryString": "",
+    "headers":
+    {
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://hpbgvizwe3dxaiydlvjh5y3xli0vymmz.lambda-url.us-west-2.on.aws/tournament_rankings/105873410870441926?stage=round_1",
+        "x-amzn-tls-version": "TLSv1.2",
+        "sec-fetch-site": "same-origin",
+        "accept-language": "en-US,en;q=0.9",
+        "x-forwarded-proto": "https",
+        "x-forwarded-port": "443",
+        "x-forwarded-for": "47.153.56.227",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "x-amzn-tls-cipher-suite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "sec-ch-ua": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-amzn-trace-id": "Root=1-653613a8-1d9ad12703b19b086415b740",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "host": "hpbgvizwe3dxaiydlvjh5y3xli0vymmz.lambda-url.us-west-2.on.aws",
+        "accept-encoding": "gzip, deflate, br",
+        "sec-fetch-dest": "image",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+    },
+    "requestContext":
+    {
+        "accountId": "anonymous",
+        "apiId": "hpbgvizwe3dxaiydlvjh5y3xli0vymmz",
+        "domainName": "hpbgvizwe3dxaiydlvjh5y3xli0vymmz.lambda-url.us-west-2.on.aws",
+        "domainPrefix": "hpbgvizwe3dxaiydlvjh5y3xli0vymmz",
+        "http":
+        {
+            "method": "GET",
+            "path": "/favicon.ico",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "47.153.56.227",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+        },
+        "requestId": "220e619e-60d1-44bc-b2d7-a464e2148645",
+        "routeKey": "$default",
+        "stage": "$default",
+        "time": "23/Oct/2023:06:33:12 +0000",
+        "timeEpoch": 1698042792796
+    },
+    "isBase64Encoded": false
+}

@@ -1,0 +1,54 @@
+{
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/team_rankings",
+    "rawQueryString": "team_ids=98926509885559666,98767991877340524,98767991892579754,98767991853197861",
+    "headers":
+    {
+        "sec-fetch-mode": "navigate",
+        "x-amzn-tls-version": "TLSv1.2",
+        "sec-fetch-site": "none",
+        "accept-language": "en-US,en;q=0.9",
+        "x-forwarded-proto": "https",
+        "x-forwarded-port": "443",
+        "x-forwarded-for": "47.153.56.227",
+        "sec-fetch-user": "?1",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "x-amzn-tls-cipher-suite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "sec-ch-ua": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-amzn-trace-id": "Root=1-653610e9-2153666e373c5c777b4e26da",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "host": "cg25zzqwk2unw5xq3c67riazz40ztpmt.lambda-url.us-west-2.on.aws",
+        "upgrade-insecure-requests": "1",
+        "cache-control": "max-age=0",
+        "accept-encoding": "gzip, deflate, br",
+        "sec-fetch-dest": "document",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+    },
+    "queryStringParameters":
+    {
+        "team_ids": "98926509885559666,98767991877340524"
+    },
+    "requestContext":
+    {
+        "accountId": "anonymous",
+        "apiId": "cg25zzqwk2unw5xq3c67riazz40ztpmt",
+        "domainName": "cg25zzqwk2unw5xq3c67riazz40ztpmt.lambda-url.us-west-2.on.aws",
+        "domainPrefix": "cg25zzqwk2unw5xq3c67riazz40ztpmt",
+        "http":
+        {
+            "method": "GET",
+            "path": "/team_rankings",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "47.153.56.227",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+        },
+        "requestId": "38692806-d46b-4e7c-9096-bc15dd60d029",
+        "routeKey": "$default",
+        "stage": "$default",
+        "time": "23/Oct/2023:06:21:29 +0000",
+        "timeEpoch": 1698042089571
+    },
+    "isBase64Encoded": false
+}
