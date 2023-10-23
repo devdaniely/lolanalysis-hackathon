@@ -87,7 +87,7 @@ def handler(event, context):
     else:
       # Get event tournament id and stage
       tournament_id = event["pathParameters"]["tournament_id"]
-      if "stage" in event["queryStringParameters"]:
+      if "queryStringParameters" in event.keys() and event["queryStringParameters"] != None and "stage" in event["queryStringParameters"]:
         stage = event["queryStringParameters"]["stage"]
       else:
         stage = None

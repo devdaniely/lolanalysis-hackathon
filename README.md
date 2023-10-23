@@ -50,7 +50,7 @@
 # Formula
 Example is at the bottom of this README
 
-Rating (new) = Rating (old) + K * (GameResult - Expected * DiffWinPredictRatio)
+Rating (new) = Rating (old) + K * (GameResult - (Expected + DiffWinPredictRatio))
 
 Expected = 1 / (1 + 10 ^ ([ProxSumA - ProxSumB] / 400) )
 

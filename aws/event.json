@@ -4,20 +4,16 @@
     "httpMethod": "GET",
     "headers": null,
     "multiValueHeaders": null,
-    "queryStringParameters":
-    {
-        "stage": "play_in_groups"
-    },
     "multiValueQueryStringParameters":
     {
         "stage":
         [
-            "play_in_groups"
+            "round_1"
         ]
     },
     "pathParameters":
     {
-        "tournament_id": "108998961191900167"
+        "tournament_id": "105873410870441926"
     },
     "stageVariables": null,
     "requestContext":
