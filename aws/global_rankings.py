@@ -66,7 +66,7 @@ def handler(event, context):
     num_teams = 20
 
     # Get number of teams
-    if "number_of_teams" in event["queryStringParameters"]:
+    if event["queryStringParameters"] != None and "number_of_teams" in event["queryStringParameters"]:
       parsed_num = int(event["queryStringParameters"]["number_of_teams"])
       if parsed_num > 0:
         num_teams = parsed_num

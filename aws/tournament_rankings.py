@@ -1,5 +1,6 @@
 import json
 import traceback
+from urllib.parse import urlparse
 import ratings_module as module
 
 '''
@@ -48,41 +49,32 @@ def response_proxy(data):
   return response
 
 
-def response_no_team_ids():
+def response_no_stage():
   response = response_proxy(None)
   response["body"] = {
-    "message": "No team ids!"
+    "message": "No stage provided!"
   }
   return response
 
-# Local Testing: python-lambda-local -f handler -t 5 team_rankings.py event.json
-# API query must look like team_ids=98926509885559666&team_ids=98767991877340524&team_ids=98767991892579754&team_ids=98767991853197861
-# OR team_ids=98926509885559666,98767991877340524,98767991892579754,98767991853197861
+# Local testing: python-lambda-local -f handler -t 5 tournament_rankings.py event.json
 def handler(event, context):
+  response = response_proxy(None)
   print("REQUEST: ------------------------------")
   print(event)
-  response = response_proxy(None)
 
   try:
-
-    if "team_ids" not in event['multiValueQueryStringParameters']:
-      response = response_no_team_ids()
-      return response
-
     # Get event tournament id and stage
-    team_ids = event['multiValueQueryStringParameters']['team_ids']
+    tournament_id = event["pathParameters"]["tournament_id"]
+    stage = None
 
-    if len(team_ids) == 1:
-      team_ids = team_ids[0].split(",")
-
-    if len(team_ids) == 0:
-      response = response_no_team_ids()
+    if "stage" not in event["queryStringParameters"]:
+      response = response_no_stage()
       return response
+
+    stage = event["queryStringParameters"]["stage"]
 
     # Get rating info
-    ratings = module.handler_team_rankings(team_ids)
-
-
+    ratings = module.handler_tournament_stage(tournament_id, stage)
     response = response_proxy(list(ratings.values()))
 
   except Exception as e:

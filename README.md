@@ -1,29 +1,39 @@
-"# lolanalysis-hackathon" 
+# lolanalysis-hackathon" 
+
+## API Examples
+
+### `/global_rankings`
+- https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/global_rankings
+- https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/global_rankings?number_of_teams=50
+
+### `/tournament_rankings/{tournament_id}?stage={stage_name}`
+- https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/tournament_rankings/105873410870441926
+- https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/tournament_rankings/105873410870441926?stage=round_1
+
+### `/team_rankings?team_ids={team_ids_array}`
+- https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/team_rankings?team_ids=98926509885559666,98767991877340524,98767991892579754,98767991853197861
+- https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/team_rankings?team_ids=98926509885559666&team_ids=98767991877340524
 
 
-### Notes:
+
+
+# Research:
 - Tech Doc: https://docs.google.com/document/d/1wFRehKMJkkRR5zyjEZyaVL9H3ZbhP7_wP0FBE5ID40c/edit
 - AWS Athena Data doc: https://docs.google.com/document/d/14uhbMUYb7cR_Hg6UWjlAgnN-hSy0ymhz19-_A6eidxI/edit?pli=1
 
-
-### Research:
+## Calculations
 - Calculating ELO: https://leagueoflegends.fandom.com/wiki/Elo_rating_system#Calculating_Elo
 - Getting Proximity: https://lolesports.com/article/dev-diary-changes-to-proximity/bltc57ec217dbf2a162
   - https://www.doranslab.gg/articles/location-based-champ-metrics.html
-
-- FIFA: https://digitalhub.fifa.com/m/f99da4f73212220/original/edbm045h0udbwkqew35a-pdf.pdf
 - NCAA Basketball Ranking Formula: https://towardsdatascience.com/college-basketballs-net-rankings-explained-25faa0ce71ed
+- KenPom Basketball: https://kenpom.com/blog/ratings-explanation/
+- FIFA: https://digitalhub.fifa.com/m/f99da4f73212220/original/edbm045h0udbwkqew35a-pdf.pdf
 
-
-#### Code References: 
-- https://github.com/kylekap/Sports_Ranking_Systems
-
-#### External Data:
+## External Data:
 - https://oracleselixir.com/stats/teams/byTournament
 
 
 --------------
-
 
 **/esports-data** - contains overview info
 **/games** - contains minute data. Created with downloaddata.py
@@ -149,7 +159,7 @@ Proximity scores are running averages:
 - TeamA_game1 proximity_sum = 10
 - TeamA_game1 proximity_score = 10
 - TeamA_game2 proximity_sum = 6
-- TeamA_game2 proximity_score = **8**
+- **TeamA_game2 proximity_score = 8**
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
