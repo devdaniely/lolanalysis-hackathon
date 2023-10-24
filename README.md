@@ -25,6 +25,10 @@ Returns the rankings for each team dating back to 2020
 - Lambda Invoke
   - https://cg25zzqwk2unw5xq3c67riazz40ztpmt.lambda-url.us-west-2.on.aws/team_rankings?team_ids=98926509885559666,98767991877340524,98767991892579754,98767991853197861
 
+# Files
+### The main code for calculating the ratings is `/aws/ratings_module.py`: [Link to code](https://github.com/devdaniely/lolanalysis-hackathon/blob/master/aws/ratings_module.py)
+
+### The main code for calculating Proximity is `process_proximity.py`: [Link to code](https://github.com/devdaniely/lolanalysis-hackathon/blob/master/process_proximity.py)
 
 
 # Research:
