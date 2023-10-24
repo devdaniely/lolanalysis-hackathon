@@ -5,16 +5,21 @@
 The lambdas will run calculations on the data as this will be easier to scale and incorporate new data in the future.
 
 ### `/global_rankings`
+Returns the current rankings of all teams since the beginning of 2023
+
 - https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/global_rankings
 - https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/global_rankings?number_of_teams=50
 
 ### `/tournament_rankings/{tournament_id}?stage={stage_name}`
+Returns the rankings of the teams in the tournament based off the prior 6 months
+
 - API Gateway (30 sec timeout)
   - https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/tournament_rankings/105873410870441926?stage=round_1
 - Lambda Invoke (5 min timeout)
   - https://hpbgvizwe3dxaiydlvjh5y3xli0vymmz.lambda-url.us-west-2.on.aws/tournament_rankings/105873410870441926?stage=round_1
 
 ### `/team_rankings?team_ids={team_ids_array}`
+Returns the rankings for each team dating back to 2020
 - API Gateway
   - https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/team_rankings?team_ids=98926509885559666&team_ids=98767991877340524
 - Lambda Invoke
