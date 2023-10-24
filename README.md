@@ -1,15 +1,17 @@
-# lolanalysis-hackathon" 
+# ELO Rating with Proximity Scores
 
 ## API Examples
+
+The lambdas will run calculations on the data as this will be easier to scale and incorporate new data in the future.
 
 ### `/global_rankings`
 - https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/global_rankings
 - https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/global_rankings?number_of_teams=50
 
 ### `/tournament_rankings/{tournament_id}?stage={stage_name}`
-- API Gateway
+- API Gateway (30 sec timeout)
   - https://mqb2k0rcn5.execute-api.us-west-2.amazonaws.com/Prod/tournament_rankings/105873410870441926?stage=round_1
-- Lambda Invoke
+- Lambda Invoke (5 min timeout)
   - https://hpbgvizwe3dxaiydlvjh5y3xli0vymmz.lambda-url.us-west-2.on.aws/tournament_rankings/105873410870441926?stage=round_1
 
 ### `/team_rankings?team_ids={team_ids_array}`
